@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <%= render 'shared/header' %>
+  <%= stylesheet_link_tag 'datatables.min' %>
+</head>
+
+<body>
+
+<%= render 'shared/menu' %>
+
+<div class="col-sm-9 col-sm-offset-3 col-lg-10 col-lg-offset-2 main">
+  <div class="row">
+    <ol class="breadcrumb">
+      <li>
+        <a href="#">
+          <em class="fa fa-home"></em>
+        </a>
+      </li>
+      <li class="active">Cases</li>
+    </ol>
+  </div>
+
+
+
+  <!--/.row-->
+  <div class="panel panel-default">
+    <div class="panel-heading">Cases</div>
+    <div class="panel-body">
+
+            <table id="cases" class="display" cellspacing="0" width="100%" >
+              <thead>
+              <tr>
+
+                <th style="">
+                  <div class="th-inner sortable">Case ID</div>
+                  <div class="fht-cell"></div>
+                </th>
+                <th style="">
+                  <div class="th-inner sortable">Missing Person</div>
+                  <div class="fht-cell"></div>
+                </th>
+                <th style="">
+                  <div class="th-inner sortable">Date Reported</div>
+                  <div class="fht-cell"></div>
+                </th>
+                <th style="">
+                  <div class="th-inner sortable">Town</div>
+                  <div class="fht-cell"></div>
+                </th>
+                <th style="">
+                  <div class="th-inner sortable">Reporter</div>
+                  <div class="fht-cell"></div>
+                </th>
+                <th style="">
+                  <div class="th-inner "></div>
+                  <div class="fht-cell"></div>
+                </th>
+              </tr>
+              </thead>
+              <tbody>
+
+              <% @cases.each do |c| %>
+                  <tr data-index="0">
+                    <td style=""><%= c.id %></td>
+                    <td style=""><%= c.name %></td>
+                    <td style=""><%= c.date_reported %></td>
+                    <td style=""><%= c.town %>i</td>
+                    <td style=""><%= c.public_user.name %></td>
+                    <td><a href="/cases/<%= c.id %> " ><button type="button" class="btn btn-sm btn-info">View</button></a></td>
+                  </tr>
+              <% end %>
+              </tbody>
+            </table>
+
+  </div>
+
+
+</div>-
+</div>
+<%= render 'shared/footer' %>
+<%= javascript_include_tag 'datatables.min' %>
+<script>
+  $(document).ready(function(){
+     $('#cases').DataTable({
+         "paging":   true,
+         "ordering": true,
+         "info":     true
+     });
+
+  });
+</script>
+
+</body>
+
+</html>

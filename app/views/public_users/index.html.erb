@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <%= render 'shared/header' %>
+  <%= stylesheet_link_tag 'datatables.min' %>
+</head>
+
+<body>
+
+<%= render 'shared/menu' %>
+
+<div class="col-sm-9 col-sm-offset-3 col-lg-10 col-lg-offset-2 main">
+  <div class="row">
+    <ol class="breadcrumb">
+      <li>
+        <a href="#">
+          <em class="fa fa-home"></em>
+        </a>
+      </li>
+      <li class="active">Cases</li>
+    </ol>
+  </div>
+
+
+
+  <!--/.row-->
+  <div class="panel panel-default">
+    <div class="panel-heading">Cases</div>
+    <div class="panel-body">
+
+      <table id="cases" class="display" cellspacing="0" width="100%" >
+        <thead>
+        <tr>
+
+          <th style="">
+            <div class="th-inner sortable">User ID</div>
+            <div class="fht-cell"></div>
+          </th>
+          <th style="">
+            <div class="th-inner sortable">Email</div>
+            <div class="fht-cell"></div>
+          </th>
+          <th style="">
+            <div class="th-inner sortable">Town</div>
+            <div class="fht-cell"></div>
+          </th>
+          <th style="">
+            <div class="th-inner sortable">Type</div>
+            <div class="fht-cell"></div>
+          </th>
+          <th style="">
+            <div class="th-inner sortable">Status</div>
+            <div class="fht-cell"></div>
+          </th>
+          <th style="">
+            <div class="th-inner "></div>
+            <div class="fht-cell"></div>
+          </th>
+        </tr>
+        </thead>
+        <tbody>
+
+        <% @public_users.each do |user| %>
+            <tr data-index="0">
+              <td style="">P<%= user.id %></td>
+              <td style=""><%= user.email %></td>
+              <td style=""><%= user.town %></td>
+              <td style="">Public</td>
+              <td style=""><%= user.status %></td>
+              <td><a href="/status/<%= user.id %> " ><button type="button" class="btn btn-sm btn-info"><% if user.status = "Active" %> De-activate <% else %> Activate <% end %></button></a></td>
+
+            </tr>
+        <% end %>
+
+        <% @users.each do |user| %>
+            <tr data-index="0">
+              <td style="">A<%= user.id %></td>
+              <td style=""><%= user.email %></td>
+              <td style="">Nairobi</td>
+              <td style="">Admin</td>
+              <td style="">Active</td>
+              <td><a href="/status/<%= user.id %> " ><button type="button" class="btn btn-sm btn-info" disabled >Deactivate</button></a></td>
+
+            </tr>
+        <% end %>
+
+        </tbody>
+      </table>
+
+    </div>
+
+
+  </div>
+</div>
+<%= render 'shared/footer' %>
+<%= javascript_include_tag 'datatables.min' %>
+<script>
+    $(document).ready(function(){
+        $('#cases').DataTable({
+            "paging":   true,
+            "ordering": true,
+            "info":     true
+        });
+    });
+</script>
+
+</body>
+
+</html>

@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <%= render 'shared/header' %>
+  <%= stylesheet_link_tag 'datatables.min' %>
+</head>
+
+<body>
+
+<%= render 'shared/menu' %>
+
+<div class="col-sm-9 col-sm-offset-3 col-lg-10 col-lg-offset-2 main">
+  <div class="row">
+    <ol class="breadcrumb">
+      <li>
+        <a href="#">
+          <em class="fa fa-home"></em>
+        </a>
+      </li>
+      <li class="active">Sightings</li>
+    </ol>
+  </div>
+
+
+
+  <!--/.row-->
+  <div class="panel panel-default">
+    <div class="panel-heading">Sightings</div>
+    <div class="panel-body">
+
+      <table id="cases" class="display" cellspacing="0" width="100%" >
+        <thead>
+        <tr>
+
+          <th style="">
+            <div class="th-inner sortable">Sighting ID</div>
+            <div class="fht-cell"></div>
+          </th>
+          <th style="">
+            <div class="th-inner sortable">Reporter</div>
+            <div class="fht-cell"></div>
+          </th>
+          <th style="">
+            <div class="th-inner sortable">Time Reported</div>
+            <div class="fht-cell"></div>
+          </th>
+          <th style="">
+            <div class="th-inner sortable">Location</div>
+            <div class="fht-cell"></div>
+          </th>
+          <th style="">
+            <div class="th-inner "></div>
+            <div class="fht-cell"></div>
+          </th>
+        </tr>
+        </thead>
+        <tbody>
+
+        <% @sightings.each do |s| %>
+            <tr data-index="0">
+              <td style=""><%= s.id %></td>
+              <td style=""><%= s.public_user.name%></td>
+              <td style=""><%= s.date_reported %></td>
+              <td style=""><%= s.location %>i</td>
+              <td><a href="/sightings/<%= s.id %> " ><button type="button" class="btn btn-sm btn-info">View</button></a></td>
+            </tr>
+        <% end %>
+        </tbody>
+      </table>
+
+    </div>
+
+
+  </div>-
+</div>
+<%= render 'shared/footer' %>
+<%= javascript_include_tag 'datatables.min' %>
+<script>
+    $(document).ready(function(){
+        $('#cases').DataTable({
+            "paging":   true,
+            "ordering": true,
+            "info":     true
+        });
+
+    });
+</script>
+
+</body>
+
+</html>

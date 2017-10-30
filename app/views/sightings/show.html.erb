@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <%= render 'shared/header' %>
+</head>
+
+<body>
+<%= render 'shared/menu' %>
+
+
+<div class="col-sm-9 col-sm-offset-3 col-lg-10 col-lg-offset-2 main">
+  <div class="row">
+    <ol class="breadcrumb">
+      <li>
+        <a href="#">
+          <em class="fa fa-home"></em>
+        </a>
+      </li>
+      <li class="active">Sightings</li>
+    </ol>
+  </div>
+
+
+
+
+  <div class="panel panel-default">
+    <div class="panel-heading">Sighting #1</div>
+    <div class="panel-body">
+      <div class="panel panel-default">
+        <div class="col-md-3">
+          <div class="panel-body">
+            <img height="200px" width="200px" src= <%= image_path 'profile.png' %> >
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="panel-body">
+      <div class="panel panel-default">
+        <div class="panel-body tabs">
+          <ul class="nav nav-pills">
+            <li class="active"><a href="#tab1" data-toggle="tab">Sighting Details</a></li>
+          </ul>
+          <div class="tab-content">
+            <div class="tab-pane fade in active" id="tab1">
+              <div class="panel panel-default">
+                <div class="panel-body">
+                  <div class="row">
+                    <div class="col-md-6">
+                      <div class="bootstrap-table">
+                        <div class="fixed-table-toolbar"></div>
+                        <div class="fixed-table-container">
+                          <div class="fixed-table-header">
+                            <table></table>
+                          </div>
+                          <div class="fixed-table-body">
+                            <div class="fixed-table-loading" style="top: 37px; display: none;">Loading, please wait…</div>
+                            <table data-toggle="table" data-url="tables/data2.json" class="table table-hover">
+
+                              <tbody>
+                              <tr data-index="0">
+                                <td style="">Name</td>
+                                <td style=""><%= @sighting.name %></td>
+                              </tr>
+                              <tr data-index="0">
+                                <td style="">Age</td>
+                                <td style=""><%= @sighting.age %></td>
+                              </tr>
+                              <tr data-index="0">
+                                <td style="">Height</td>
+                                <td style=""><%= @sighting.height %></td>
+                              </tr>
+                              <tr data-index="0">
+                                <td style="">Body Type</td>
+                                <td style=""><%= @sighting.body_type %></td>
+                              </tr>
+
+
+                              </tbody>
+                            </table>
+                          </div>
+
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-md-6">
+                      <div class="panel panel-default">
+                        <div class="panel-heading">General Appearance Description</div>
+                        <div class="panel-body">
+                          <p><%= @sighting.description %></p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!--/.main-->
+<%= render 'shared/footer' %>
+
+</body>
+
+</html>

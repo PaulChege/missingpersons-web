@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <%= render 'shared/header' %>
+</head>
+
+<body>
+    <%= render 'shared/menu' %>
+
+    <div class="col-sm-9 col-sm-offset-3 col-lg-10 col-lg-offset-2 main">
+        <div class="row">
+            <ol class="breadcrumb">
+                <li>
+                    <a href="#">
+                        <em class="fa fa-home"></em>
+                    </a>
+                </li>
+                <li class="active">Cases</li>
+            </ol>
+        </div>
+
+
+
+
+        <div class="panel panel-default">
+            <div class="panel-heading">Case  # <%= @c.id %></div>
+            <div class="panel-body">
+                <div class="panel panel-default">
+                    <div class="col-md-3">
+                        <div class="panel-body">
+                            <img height="200px" width="200px" src=<%= image_path('profile') %>>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="panel-body">
+                            <img height="200px" width="200px" src=<%= image_path('profile') %>>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="panel-body">
+                            <img height="200px" width="200px" src=<%= image_path('profile') %>>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="panel-body">
+                            <img height="200px" width="200px" src=<%= image_path('profile') %>>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="panel-body">
+                <div class="panel panel-default">
+                    <div class="panel-body tabs">
+                        <ul class="nav nav-pills">
+                            <li class="active"><a href="#tab1" data-toggle="tab">Personal Details</a></li>
+                            <li><a href="#tab2" data-toggle="tab">Case Details</a></li>
+                            <li><a href="#tab3" data-toggle="tab">Matched Sightings</a></li>
+                        </ul>
+                        <div class="tab-content">
+                            <div class="tab-pane fade in active" id="tab1">
+                                <div class="panel panel-default">
+                                    <div class="panel-body">
+                                        <div class="row">
+                                            <div class="col-md-6">
+                                                <div class="bootstrap-table">
+                                                    <div class="fixed-table-toolbar"></div>
+                                                    <div class="fixed-table-container">
+                                                        <div class="fixed-table-header">
+                                                            <table></table>
+                                                        </div>
+                                                        <div class="fixed-table-body">
+                                                            <div class="fixed-table-loading" style="top: 37px; display: none;">Loading, please wait…</div>
+                                                            <table data-toggle="table" data-url="tables/data2.json" class="table table-hover">
+
+                                                                <tbody>
+                                                                    <tr data-index="0">
+                                                                        <td style="">First Name</td>
+                                                                        <td style=""><%= @c.name %></td>
+                                                                    </tr>
+                                                                    <tr data-index="0">
+                                                                        <td style="">Age</td>
+                                                                        <td style=""><%=@c.age %></td>
+                                                                    </tr>
+                                                                    <tr data-index="0">
+                                                                        <td style="">Height</td>
+                                                                        <td style=""><%= @c.height %></td>
+                                                                    </tr>
+                                                                    <tr data-index="0">
+                                                                        <td style="">Body Type</td>
+                                                                        <td style=""><%= @c.body_type %></td>
+                                                                    </tr>
+
+
+
+                                                                </tbody>
+                                                            </table>
+                                                        </div>
+
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-6">
+                                                <div class="panel panel-default">
+                                                    <div class="panel-heading">General Appearance Description</div>
+                                                    <div class="panel-body">
+                                                        <p><%= @c.description %></p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+
+
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane fade" id="tab2">
+                                <div class="panel panel-default">
+                                    <div class="panel-body">
+                                        <div class="row">
+                                            <div class="col-md-6">
+                                                <div class="bootstrap-table">
+                                                    <div class="fixed-table-toolbar"></div>
+                                                    <div class="fixed-table-container">
+                                                        <div class="fixed-table-header">
+                                                            <table></table>
+                                                        </div>
+                                                        <div class="fixed-table-body">
+                                                            <div class="fixed-table-loading" style="top: 37px; display: none;">Loading, please wait…</div>
+                                                            <table data-toggle="table" data-url="tables/data2.json" class="table table-hover">
+
+                                                                <tbody>
+
+                                                                    <tr data-index="0">
+                                                                        <td style="">Reporter</td>
+                                                                        <td style=""><%= @c.public_user.name %> </td>
+                                                                    </tr>
+                                                                    <tr data-index="0">
+                                                                        <td style="">Relationship</td>
+                                                                        <td style=""><%= @c.reporter_rel %></td>
+                                                                    </tr>
+                                                                    <tr data-index="0">
+                                                                        <td style="">Date Reported</td>
+                                                                        <td style=""><%= @c.date_reported %></td>
+                                                                    </tr>
+                                                                    <tr data-index="0">
+                                                                        <td style="">Date Last Seen</td>
+                                                                        <td style=""><%= @c.date_last_seen %></td>
+                                                                    </tr>
+                                                                    <tr data-index="0">
+                                                                        <td style="">Last Seen Location</td>
+                                                                        <td style=""><%= @c.location_last_seen %></td>
+                                                                    </tr>
+
+                                                                    <tr data-index="0">
+                                                                        <td style="">Status</td>
+                                                                        <td style=""><%= @c.status %></td>
+                                                                    </tr>
+
+                                                                </tbody>
+                                                            </table>
+                                                        </div>
+
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+
+
+                                    </div>
+                                </div>
+                            </div>
+
+
+
+                            <div class="tab-pane fade" id="tab3">
+                                <div class="panel panel-default">
+                                    <div class="panel-body">
+                                        <div class="row">
+                                            <div class="col-md-12">
+                                               <table id = "sightings" class="table table-hover">
+                                                                <thead>
+                                                                    <tr>
+
+                                                                        <th style="">
+                                                                            <div class="th-inner sortable">Sighting ID</div>
+                                                                            <div class="fht-cell"></div>
+                                                                        </th>
+                                                                        <th style="">
+                                                                            <div class="th-inner sortable">User<span class="order"><span class="caret" style="margin: 10px 5px;"></span></span>
+                                                                            </div>
+                                                                            <div class="fht-cell"></div>
+                                                                        </th>
+                                                                        <th style="">
+                                                                            <div class="th-inner sortable">Date Reported</div>
+                                                                            <div class="fht-cell"></div>
+                                                                        </th>
+                                                                        <th style="">
+                                                                            <div class="th-inner sortable">Location</div>
+                                                                            <div class="fht-cell"></div>
+                                                                        </th>
+                                                                        <th style="">
+                                                                            <div class="th-inner sortable">Image Match</div>
+                                                                            <div class="fht-cell"></div>
+                                                                        </th>
+                                                                        <th style="">
+                                                                            <div class="th-inner sortable">Description Match</div>
+                                                                            <div class="fht-cell"></div>
+                                                                        </th>
+
+                                                                    </tr>
+                                                                </thead>
+                                                                <tbody>
+                                                                <% @matches.each do |match| %>
+                                                                    <tr data-index="0">
+                                                                        <td style=""><%= match.id %></td>
+                                                                        <td style=""><%= match.sighting.public_user.name %></td>
+                                                                        <td style=""><%= match.sighting.date_reported %></td>
+                                                                        <td style=""><%= match.sighting.location%></td>
+                                                                        <td style=""><%= match.image_match %></td>
+                                                                        <td style=""><%= match.description_match %></td>
+                                                                    </tr>
+                                                                <% end %>
+                                                                </tbody>
+							                                                  </table>
+
+                            </div>
+                        </div>
+
+
+
+
+
+
+                    </div>
+                </div>
+            </div>
+            </div>
+
+
+
+
+
+
+        </div>
+    </div>
+    </div>
+    <!--/.row-->
+
+
+    </div>-
+    </div>
+    <!--/.main-->
+<%= render 'shared/footer' %>
+
+</body>
+
+</html>
