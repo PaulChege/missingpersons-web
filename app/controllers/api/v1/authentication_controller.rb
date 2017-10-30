@@ -10,4 +10,17 @@ class Api::V1::AuthenticationController < Api::V1::BaseController
       render json: { error: command.errors }, status: :unauthorized
     end
   end
+
+  def signup
+    if !PublicUser.find_by_email(params[:email])
+      if PublicUser.create(name: params[:name],email: params[:email],password: params[:password],town: params[:town],status: "Active")
+        render json: {status: "success"}
+      else
+        render json: {status: "error",code: "400",message: "Cannot create user"}
+      end
+    else
+      render json: {status: "error",code: "400",message: "Email already in use"}
+    end
+
+  end
 end
