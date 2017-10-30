@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7262071c-578d-45a8-b473-bb486a3b0dd8" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/shared/_menu.html.erb" afterPath="$PROJECT_DIR$/app/views/shared/_menu.html.erb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/cases/show.html.erb" afterPath="$PROJECT_DIR$/app/views/cases/show.html.erb" />
     </list>
     <ignored path="$PROJECT_DIR$/.bundle/" />
     <ignored path="$PROJECT_DIR$/components/" />
@@ -98,11 +98,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="_menu.html.erb" pinned="false" current-in-tab="true">
+      <file leaf-file-name="_menu.html.erb" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/shared/_menu.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="268">
-              <caret line="48" column="22" lean-forward="true" selection-start-line="48" selection-start-column="22" selection-end-line="48" selection-end-column="22" />
+            <state relative-caret-position="81">
+              <caret line="37" column="0" lean-forward="false" selection-start-line="37" selection-start-column="0" selection-end-line="37" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="show.html.erb" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/views/cases/show.html.erb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="227">
+              <caret line="46" column="93" lean-forward="false" selection-start-line="46" selection-start-column="93" selection-end-line="46" selection-end-column="93" />
               <folding />
             </state>
           </provider>
@@ -158,16 +168,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="database.yml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/config/database.yml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="54" column="31" lean-forward="false" selection-start-line="54" selection-start-column="31" selection-end-line="54" selection-end-column="31" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="console.sql" pinned="false" current-in-tab="false">
         <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/ef480761-14fd-4f15-bb5b-6c50343ffa1e/console.sql">
           <provider selected="true" editor-type-id="text-editor">
@@ -186,6 +186,11 @@
         <option value="Ruby Class Template" />
       </list>
     </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>ima</find>
+    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -213,7 +218,6 @@
         <option value="$PROJECT_DIR$/app/views/cases/case.html" />
         <option value="$PROJECT_DIR$/app/views/cases/index.html.erb" />
         <option value="$PROJECT_DIR$/app/views/shared/_header.html.erb" />
-        <option value="$PROJECT_DIR$/app/views/cases/show.html.erb" />
         <option value="$PROJECT_DIR$/app/views/sighting/index.html.erb" />
         <option value="$PROJECT_DIR$/app/views/sightings/index.html.erb" />
         <option value="$PROJECT_DIR$/app/controllers/sightings_controller.rb" />
@@ -244,6 +248,7 @@
         <option value="$PROJECT_DIR$/app/commands/authenticate_user.rb" />
         <option value="$PROJECT_DIR$/config/application.rb" />
         <option value="$PROJECT_DIR$/app/views/shared/_menu.html.erb" />
+        <option value="$PROJECT_DIR$/app/views/cases/show.html.erb" />
       </list>
     </option>
   </component>
@@ -446,7 +451,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="SearchEverywhereHistoryKey" value="mer&#9;FILE&#9;file://C:/Projects/Web/Code/missingpersons/app/views/shared/_menu.html.erb&#10;au&#9;FILE&#9;file://C:/Projects/Web/Code/missingpersons/app/commands/authenticate_user.rb&#10;js&#9;FILE&#9;file://C:/Projects/Web/Code/missingpersons/lib/json_web_token.rb&#10;ca&#9;FILE&#9;file://C:/Projects/Web/Code/missingpersons/app/models/case.rb&#10;rout&#9;FILE&#9;file://C:/Projects/Web/Code/missingpersons/config/routes.rb&#10;ro&#9;FILE&#9;file://C:/Projects/Web/Code/missingpersons/config/routes.rb&#10;rou&#9;FILE&#9;file://C:/Projects/Web/Code/missingpersons/config/routes.rb&#10;R&#9;FILE&#9;file://C:/Projects/Web/Code/missingpersons/config/routes.rb&#10;app&#9;null&#9;null&#10;pu&#9;FILE&#9;file://C:/Projects/Web/Code/missingpersons/app/models/public_user.rb&#10;GE&#9;FILE&#9;file://C:/Projects/Web/Code/missingpersons/Gemfile&#10;PUser&#9;FILE&#9;file://C:/Projects/Web/Code/missingpersons/test/fixtures/p_users.yml&#10;_me&#9;FILE&#9;file://C:/Projects/Web/Code/missingpersons/app/views/shared/_menu.html.erb&#10;cas&#9;FILE&#9;file://C:/Projects/Web/Code/missingpersons/app/models/case.rb&#10;ou&#9;FILE&#9;file://C:/Projects/Web/Code/missingpersons/config/routes.rb&#10;sign_in&#9;FILE&#9;file://C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/devise-4.2.1/lib/devise/controllers/sign_in_out.rb&#10;sign&#9;FILE&#9;file://C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/devise-4.2.1/lib/devise/controllers/sign_in_out.rb" />
+    <property name="SearchEverywhereHistoryKey" value="sho&#9;FILE&#9;file://C:/Projects/Web/Code/missingpersons/app/views/cases/show.html.erb&#10;mer&#9;FILE&#9;file://C:/Projects/Web/Code/missingpersons/app/views/shared/_menu.html.erb&#10;au&#9;FILE&#9;file://C:/Projects/Web/Code/missingpersons/app/commands/authenticate_user.rb&#10;js&#9;FILE&#9;file://C:/Projects/Web/Code/missingpersons/lib/json_web_token.rb&#10;ca&#9;FILE&#9;file://C:/Projects/Web/Code/missingpersons/app/models/case.rb&#10;rout&#9;FILE&#9;file://C:/Projects/Web/Code/missingpersons/config/routes.rb&#10;ro&#9;FILE&#9;file://C:/Projects/Web/Code/missingpersons/config/routes.rb&#10;rou&#9;FILE&#9;file://C:/Projects/Web/Code/missingpersons/config/routes.rb&#10;R&#9;FILE&#9;file://C:/Projects/Web/Code/missingpersons/config/routes.rb&#10;app&#9;null&#9;null&#10;pu&#9;FILE&#9;file://C:/Projects/Web/Code/missingpersons/app/models/public_user.rb&#10;GE&#9;FILE&#9;file://C:/Projects/Web/Code/missingpersons/Gemfile&#10;PUser&#9;FILE&#9;file://C:/Projects/Web/Code/missingpersons/test/fixtures/p_users.yml&#10;_me&#9;FILE&#9;file://C:/Projects/Web/Code/missingpersons/app/views/shared/_menu.html.erb&#10;cas&#9;FILE&#9;file://C:/Projects/Web/Code/missingpersons/app/models/case.rb&#10;ou&#9;FILE&#9;file://C:/Projects/Web/Code/missingpersons/config/routes.rb&#10;sign_in&#9;FILE&#9;file://C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/devise-4.2.1/lib/devise/controllers/sign_in_out.rb&#10;sign&#9;FILE&#9;file://C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/devise-4.2.1/lib/devise/controllers/sign_in_out.rb" />
     <property name="com.intellij.database.dataSource.DataSourceTemplate" value="PostgreSQL&#10;Sqlite (Xerial)" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
   </component>
@@ -672,12 +677,12 @@
       <workItem from="1508312565140" duration="7096000" />
       <workItem from="1508330626038" duration="1853000" />
       <workItem from="1508749469319" duration="36193000" />
-      <workItem from="1509357718392" duration="5000000" />
+      <workItem from="1509357718392" duration="5124000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="78690000" />
+    <option name="totallyTimeSpent" value="78814000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="0" width="1370" height="744" extended-state="0" />
@@ -779,6 +784,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
           <caret line="6" column="43" lean-forward="false" selection-start-line="6" selection-start-column="43" selection-end-line="6" selection-end-column="43" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -793,14 +799,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="174">
           <caret line="34" column="0" lean-forward="false" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/cases/show.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="526">
-          <caret line="226" column="72" lean-forward="false" selection-start-line="226" selection-start-column="72" selection-end-line="226" selection-end-column="72" />
           <folding />
         </state>
       </provider>
@@ -921,6 +919,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
           <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1109,8 +1108,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/shared/_menu.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="268">
-          <caret line="48" column="22" lean-forward="true" selection-start-line="48" selection-start-column="22" selection-end-line="48" selection-end-column="22" />
+        <state relative-caret-position="81">
+          <caret line="37" column="0" lean-forward="false" selection-start-line="37" selection-start-column="0" selection-end-line="37" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/cases/show.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="227">
+          <caret line="46" column="93" lean-forward="false" selection-start-line="46" selection-start-column="93" selection-end-line="46" selection-end-column="93" />
           <folding />
         </state>
       </provider>
