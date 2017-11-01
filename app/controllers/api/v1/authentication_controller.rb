@@ -7,7 +7,7 @@ class Api::V1::AuthenticationController < Api::V1::BaseController
     if command.success?
       render json: { status: "success", message: "Login successful", auth_token: command.result['token'], user: command.result['user'] }
     else
-      render json: { status: "error" , message: command.errors }
+      render json: { status: "error" , message: "Invalid credentials" }
     end
   end
 
