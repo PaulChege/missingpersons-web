@@ -29,7 +29,7 @@
                 <div class="panel panel-default">
                     <div class="col-md-3">
                         <div class="panel-body">
-                            <img height="200px" width="200px" src=<%= image_path('profile.png') %>>
+                            <img height="200px" width="200px" src=<%= image_path @c.image.url %>>
                         </div>
                     </div>
                     <div class="col-md-3">
@@ -143,7 +143,7 @@
                                                                     </tr>
                                                                     <tr data-index="0">
                                                                         <td style="">Date Reported</td>
-                                                                        <td style=""><%= @c.date_reported %></td>
+                                                                        <td style=""><%= @c.created_at %></td>
                                                                     </tr>
                                                                     <tr data-index="0">
                                                                         <td style="">Date Last Seen</td>

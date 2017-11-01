@@ -28,6 +28,7 @@ ActiveRecord::Schema.define(version: 20171026131034) do
     t.string   "town"
     t.string   "reporter_rel"
     t.integer  "public_user_id"
+    t.string   "image"
     t.datetime "created_at",         null: false
     t.datetime "updated_at",         null: false
   end

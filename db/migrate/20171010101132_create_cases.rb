@@ -13,6 +13,7 @@ class CreateCases < ActiveRecord::Migration[5.0]
       t.string :town
       t.string :reporter_rel
       t.integer :public_user_id
+      t.string :image
       t.timestamps
     end
   end

@@ -40,6 +40,9 @@ gem 'jwt'
 #simple_command
 gem 'simple_command'
 
+#images
+gem 'carrierwave'
+
 # Use Redis adapter to run Action Cable in production
 # gem 'redis', '~> 3.0'
 
