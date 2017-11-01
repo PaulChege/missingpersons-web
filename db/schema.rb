@@ -25,7 +25,6 @@ ActiveRecord::Schema.define(version: 20171026131034) do
     t.date     "date_last_seen"
     t.text     "description"
     t.string   "status"
-    t.date     "date_reported"
     t.string   "town"
     t.string   "reporter_rel"
     t.integer  "public_user_id"
@@ -54,7 +53,6 @@ ActiveRecord::Schema.define(version: 20171026131034) do
 
   create_table "sightings", force: :cascade do |t|
     t.integer  "public_user_id"
-    t.integer  "case_id"
     t.string   "name"
     t.string   "age"
     t.string   "body_type"
@@ -62,7 +60,6 @@ ActiveRecord::Schema.define(version: 20171026131034) do
     t.float    "weight"
     t.text     "description"
     t.string   "location"
-    t.date     "date_reported"
     t.datetime "created_at",     null: false
     t.datetime "updated_at",     null: false
   end

@@ -10,7 +10,6 @@ class CreateCases < ActiveRecord::Migration[5.0]
       t.date :date_last_seen
       t.text :description
       t.string :status
-      t.date :date_reported
       t.string :town
       t.string :reporter_rel
       t.integer :public_user_id

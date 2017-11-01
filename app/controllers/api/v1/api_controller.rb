@@ -22,7 +22,7 @@ class Api::V1::ApiController < Api::V1::BaseController
 
 
   def create_sighting
-      s = Sighting.create( public_users_id: params[:public_user_id],
+      s = Sighting.create( public_user_id: params[:public_user_id],
                            name: params[:name],
                            age: params[:age],
                            height: params[:height],
