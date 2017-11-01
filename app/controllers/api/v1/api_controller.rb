@@ -10,7 +10,6 @@ class Api::V1::ApiController < Api::V1::BaseController
           location_last_seen: params[:location_last_seen],
           description: params[:description],
           status: "Active",
-          date_reported: Time.now,
           reporter_rel: params[:reporter_rel],
           town: params[:town]
       )
@@ -19,6 +18,26 @@ class Api::V1::ApiController < Api::V1::BaseController
     else
       render json: {status: "error",code: "400",message: "Cannot create case"}
     end
+  end
+
+
+  def create_sighting
+      s = Sighting.create( public_users_id: params[:public_user_id],
+                           name: params[:name],
+                           age: params[:age],
+                           height: params[:height],
+                           weight: params[:weight],
+                           body_type: params[:body_type],
+                           location: params[:location],
+                           description: params[:description]
+
+      )
+
+      if s.save!
+        render json: {status: "success",message: "Sighting reported"}
+      else
+        render json: {status: "error",code: "400",message: "Cannot report sighting"}
+      end
   end
 
 

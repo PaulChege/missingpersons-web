@@ -13,6 +13,7 @@ Rails.application.routes.draw do
   namespace 'v1' do
     post 'authenticate', to: 'authentication#authenticate'
     post 'create_case', to: 'api#create_case'
+    post 'create_sighting', to: 'api#create_sighting'
     post 'signup', to: 'authentication#signup'
   end
   end
