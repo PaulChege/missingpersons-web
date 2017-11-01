@@ -15,7 +15,7 @@ class Api::V1::ApiController < Api::V1::BaseController
           town: params[:town]
       )
       if c.save!
-        render json: {status: "success"}
+        render json: {status: "success",message: "Case created"}
     else
       render json: {status: "error",code: "400",message: "Cannot create case"}
     end
