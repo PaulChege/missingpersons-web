@@ -31,8 +31,8 @@ class Api::V1::ApiController < Api::V1::BaseController
                            weight: params[:weight],
                            body_type: params[:body_type],
                            location: params[:location],
-                           description: params[:description]
-
+                           description: params[:description],
+                            image: params[:image]
       )
 
       if s.save!
@@ -41,8 +41,6 @@ class Api::V1::ApiController < Api::V1::BaseController
         render json: {status: "error",code: "400",message: "Cannot report sighting"}
       end
   end
-
-
 
 
 end

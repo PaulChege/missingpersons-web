@@ -4,7 +4,7 @@ Rails.application.routes.draw do
   root to: 'home#index'
   resources :cases, only: [:index , :show ]
   resources :sightings, only: [:index,:show]
-  resources :public_users,  only: [:index]
+  resources :public_users, only: [:index]
 
 
 
