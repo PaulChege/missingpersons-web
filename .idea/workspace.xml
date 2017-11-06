@@ -2,30 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7262071c-578d-45a8-b473-bb486a3b0dd8" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/dataSources/ef480761-14fd-4f15-bb5b-6c50343ffa1e.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/dataSources/fd9ad96d-deb7-4208-97c0-e01f0524d4c1.xml" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources/31ac04b5-00bb-40c4-b7e5-f383f45b379a/_metadata_/metadata" afterPath="$PROJECT_DIR$/.idea/dataSources/31ac04b5-00bb-40c4-b7e5-f383f45b379a/_metadata_/metadata" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources/31ac04b5-00bb-40c4-b7e5-f383f45b379a/_metadata_/metadata.keystream" afterPath="$PROJECT_DIR$/.idea/dataSources/31ac04b5-00bb-40c4-b7e5-f383f45b379a/_metadata_/metadata.keystream" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources/31ac04b5-00bb-40c4-b7e5-f383f45b379a/_metadata_/metadata.keystream.len" afterPath="$PROJECT_DIR$/.idea/dataSources/31ac04b5-00bb-40c4-b7e5-f383f45b379a/_metadata_/metadata.keystream.len" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources/31ac04b5-00bb-40c4-b7e5-f383f45b379a/_metadata_/metadata.len" afterPath="$PROJECT_DIR$/.idea/dataSources/31ac04b5-00bb-40c4-b7e5-f383f45b379a/_metadata_/metadata.len" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources/31ac04b5-00bb-40c4-b7e5-f383f45b379a/_metadata_/metadata_i" afterPath="$PROJECT_DIR$/.idea/dataSources/31ac04b5-00bb-40c4-b7e5-f383f45b379a/_metadata_/metadata_i" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources/31ac04b5-00bb-40c4-b7e5-f383f45b379a/_metadata_/metadata_i.len" afterPath="$PROJECT_DIR$/.idea/dataSources/31ac04b5-00bb-40c4-b7e5-f383f45b379a/_metadata_/metadata_i.len" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources/fd9ad96d-deb7-4208-97c0-e01f0524d4c1/_metadata_/metadata" afterPath="$PROJECT_DIR$/.idea/dataSources/fd9ad96d-deb7-4208-97c0-e01f0524d4c1/_metadata_/metadata" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources/fd9ad96d-deb7-4208-97c0-e01f0524d4c1/_metadata_/metadata.keystream" afterPath="$PROJECT_DIR$/.idea/dataSources/fd9ad96d-deb7-4208-97c0-e01f0524d4c1/_metadata_/metadata.keystream" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources/fd9ad96d-deb7-4208-97c0-e01f0524d4c1/_metadata_/metadata.keystream.len" afterPath="$PROJECT_DIR$/.idea/dataSources/fd9ad96d-deb7-4208-97c0-e01f0524d4c1/_metadata_/metadata.keystream.len" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources/fd9ad96d-deb7-4208-97c0-e01f0524d4c1/_metadata_/metadata.len" afterPath="$PROJECT_DIR$/.idea/dataSources/fd9ad96d-deb7-4208-97c0-e01f0524d4c1/_metadata_/metadata.len" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources/fd9ad96d-deb7-4208-97c0-e01f0524d4c1/_metadata_/metadata_i" afterPath="$PROJECT_DIR$/.idea/dataSources/fd9ad96d-deb7-4208-97c0-e01f0524d4c1/_metadata_/metadata_i" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources/fd9ad96d-deb7-4208-97c0-e01f0524d4c1/_metadata_/metadata_i.len" afterPath="$PROJECT_DIR$/.idea/dataSources/fd9ad96d-deb7-4208-97c0-e01f0524d4c1/_metadata_/metadata_i.len" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/.generators" afterPath="$PROJECT_DIR$/.idea/.generators" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources/31ac04b5-00bb-40c4-b7e5-f383f45b379a.xml" afterPath="$PROJECT_DIR$/.idea/dataSources/31ac04b5-00bb-40c4-b7e5-f383f45b379a.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/missingpersons.iml" afterPath="$PROJECT_DIR$/.idea/missingpersons.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gemfile.lock" afterPath="$PROJECT_DIR$/Gemfile.lock" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/api/v1/api_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/api/v1/api_controller.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/sighting.rb" afterPath="$PROJECT_DIR$/app/models/sighting.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/routes.rb" afterPath="$PROJECT_DIR$/config/routes.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db/migrate/20171010100804_create_sightings.rb" afterPath="$PROJECT_DIR$/db/migrate/20171010100804_create_sightings.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db/schema.rb" afterPath="$PROJECT_DIR$/db/schema.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/sightings/show.html.erb" afterPath="$PROJECT_DIR$/app/views/sightings/show.html.erb" />
     </list>
     <ignored path="$PROJECT_DIR$/.bundle/" />
     <ignored path="$PROJECT_DIR$/components/" />
@@ -104,18 +81,28 @@
       <file leaf-file-name="api_controller.rb" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/controllers/api/v1/api_controller.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="27" column="47" lean-forward="false" selection-start-line="27" selection-start-column="47" selection-end-line="27" selection-end-column="47" />
+            <state relative-caret-position="185">
+              <caret line="23" column="0" lean-forward="true" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="image_uploader.rb" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/uploaders/image_uploader.rb">
+      <file leaf-file-name="show.html.erb" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/views/sightings/show.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" column="35" lean-forward="false" selection-start-line="4" selection-start-column="35" selection-end-line="4" selection-end-column="35" />
+            <state relative-caret-position="449">
+              <caret line="35" column="12" lean-forward="true" selection-start-line="35" selection-start-column="12" selection-end-line="35" selection-end-column="12" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="show.html.erb" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/views/cases/show.html.erb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="578">
+              <caret line="47" column="30" lean-forward="false" selection-start-line="47" selection-start-column="30" selection-end-line="47" selection-end-column="30" />
               <folding />
             </state>
           </provider>
@@ -124,14 +111,24 @@
       <file leaf-file-name="sighting.rb" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/models/sighting.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+            <state relative-caret-position="68">
+              <caret line="4" column="0" lean-forward="true" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="missingpersons.public.sightings" pinned="false" current-in-tab="true">
+      <file leaf-file-name="case.rb" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/models/case.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="102">
+              <caret line="6" column="0" lean-forward="true" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="missingpersons.public.sightings" pinned="false" current-in-tab="false">
         <entry file="dbDummy://dbtable:/4f8d8e62/31ac04b5-00bb-40c4-b7e5-f383f45b379a/missingpersons.public.sightings">
           <provider editor-type-id="text-editor">
             <state relative-caret-position="0">
@@ -214,7 +211,6 @@
         <option value="$PROJECT_DIR$/app/views/sighting/index.html.erb" />
         <option value="$PROJECT_DIR$/app/controllers/sightings_controller.rb" />
         <option value="$PROJECT_DIR$/missingpersons-ui/sighting.html" />
-        <option value="$PROJECT_DIR$/app/views/sightings/show.html.erb" />
         <option value="$PROJECT_DIR$/app/controllers/public_users_controller.rb" />
         <option value="$PROJECT_DIR$/app/views/public_users/index.html.erb" />
         <option value="$PROJECT_DIR$/app/views/home/index.html.erb" />
@@ -247,6 +243,7 @@
         <option value="$PROJECT_DIR$/app/controllers/api/v1/api_controller.rb" />
         <option value="$PROJECT_DIR$/tmp/pids/server.pid" />
         <option value="$PROJECT_DIR$/app/models/sighting.rb" />
+        <option value="$PROJECT_DIR$/app/views/sightings/show.html.erb" />
       </list>
     </option>
   </component>
@@ -333,6 +330,32 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="uploads" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="missingpersons" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="missingpersons" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="public" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="uploads" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sighting" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="image" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -588,7 +611,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="SearchEverywhereHistoryKey" value="server&#9;FILE&#9;file://C:/Projects/Web/Code/missingpersons/tmp/pids/server.pid&#10;rou&#9;FILE&#9;file://C:/Projects/Web/Code/missingpersons/config/routes.rb&#10;seed&#9;FILE&#9;file://C:/Projects/Web/Code/missingpersons/db/seeds.rb&#10;cas&#9;FILE&#9;file://C:/Projects/Web/Code/missingpersons/app/models/case.rb&#10;see&#9;FILE&#9;file://C:/Projects/Web/Code/missingpersons/db/seeds.rb&#10;ca&#9;FILE&#9;file://C:/Projects/Web/Code/missingpersons/app/models/case.rb&#10;sigh&#9;FILE&#9;file://C:/Projects/Web/Code/missingpersons/app/models/sighting.rb&#10;case&#9;FILE&#9;file://C:/Projects/Web/Code/missingpersons/app/models/case.rb&#10;Si&#9;FILE&#9;file://C:/Projects/Web/Code/missingpersons/app/models/sighting.rb&#10;sho&#9;FILE&#9;file://C:/Projects/Web/Code/missingpersons/app/views/cases/show.html.erb&#10;show&#9;FILE&#9;file://C:/Projects/Web/Code/missingpersons/app/views/sightings/show.html.erb&#10;ap&#9;FILE&#9;file://C:/Projects/Web/Code/missingpersons/app/controllers/api/v1/api_controller.rb&#10;gEM&#9;FILE&#9;file://C:/Projects/Web/Code/missingpersons/Gemfile&#10;inde&#9;FILE&#9;file://C:/Projects/Web/Code/missingpersons/app/views/cases/index.html.erb&#10;sh&#9;FILE&#9;file://C:/Projects/Web/Code/missingpersons/app/views/sightings/show.html.erb&#10;r&#9;FILE&#9;file://C:/Projects/Web/Code/missingpersons/config/routes.rb&#10;ro&#9;FILE&#9;file://C:/Projects/Web/Code/missingpersons/config/routes.rb&#10;mer&#9;FILE&#9;file://C:/Projects/Web/Code/missingpersons/app/views/shared/_menu.html.erb&#10;au&#9;FILE&#9;file://C:/Projects/Web/Code/missingpersons/app/commands/authenticate_user.rb&#10;js&#9;FILE&#9;file://C:/Projects/Web/Code/missingpersons/lib/json_web_token.rb&#10;rout&#9;FILE&#9;file://C:/Projects/Web/Code/missingpersons/config/routes.rb&#10;R&#9;FILE&#9;file://C:/Projects/Web/Code/missingpersons/config/routes.rb&#10;app&#9;null&#9;null&#10;pu&#9;FILE&#9;file://C:/Projects/Web/Code/missingpersons/app/models/public_user.rb&#10;GE&#9;FILE&#9;file://C:/Projects/Web/Code/missingpersons/Gemfile&#10;PUser&#9;FILE&#9;file://C:/Projects/Web/Code/missingpersons/test/fixtures/p_users.yml&#10;_me&#9;FILE&#9;file://C:/Projects/Web/Code/missingpersons/app/views/shared/_menu.html.erb&#10;ou&#9;FILE&#9;file://C:/Projects/Web/Code/missingpersons/config/routes.rb&#10;sign_in&#9;FILE&#9;file://C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/devise-4.2.1/lib/devise/controllers/sign_in_out.rb&#10;sign&#9;FILE&#9;file://C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/devise-4.2.1/lib/devise/controllers/sign_in_out.rb" />
+    <property name="SearchEverywhereHistoryKey" value="sho&#9;FILE&#9;file://C:/projects/web/code/missingpersons/app/views/cases/show.html.erb&#10;sh&#9;FILE&#9;file://C:/projects/web/code/missingpersons/app/views/sightings/show.html.erb&#10;server&#9;FILE&#9;file://C:/Projects/Web/Code/missingpersons/tmp/pids/server.pid&#10;rou&#9;FILE&#9;file://C:/Projects/Web/Code/missingpersons/config/routes.rb&#10;seed&#9;FILE&#9;file://C:/Projects/Web/Code/missingpersons/db/seeds.rb&#10;cas&#9;FILE&#9;file://C:/Projects/Web/Code/missingpersons/app/models/case.rb&#10;see&#9;FILE&#9;file://C:/Projects/Web/Code/missingpersons/db/seeds.rb&#10;ca&#9;FILE&#9;file://C:/Projects/Web/Code/missingpersons/app/models/case.rb&#10;sigh&#9;FILE&#9;file://C:/Projects/Web/Code/missingpersons/app/models/sighting.rb&#10;case&#9;FILE&#9;file://C:/Projects/Web/Code/missingpersons/app/models/case.rb&#10;Si&#9;FILE&#9;file://C:/Projects/Web/Code/missingpersons/app/models/sighting.rb&#10;show&#9;FILE&#9;file://C:/Projects/Web/Code/missingpersons/app/views/sightings/show.html.erb&#10;ap&#9;FILE&#9;file://C:/Projects/Web/Code/missingpersons/app/controllers/api/v1/api_controller.rb&#10;gEM&#9;FILE&#9;file://C:/Projects/Web/Code/missingpersons/Gemfile&#10;inde&#9;FILE&#9;file://C:/Projects/Web/Code/missingpersons/app/views/cases/index.html.erb&#10;r&#9;FILE&#9;file://C:/Projects/Web/Code/missingpersons/config/routes.rb&#10;ro&#9;FILE&#9;file://C:/Projects/Web/Code/missingpersons/config/routes.rb&#10;mer&#9;FILE&#9;file://C:/Projects/Web/Code/missingpersons/app/views/shared/_menu.html.erb&#10;au&#9;FILE&#9;file://C:/Projects/Web/Code/missingpersons/app/commands/authenticate_user.rb&#10;js&#9;FILE&#9;file://C:/Projects/Web/Code/missingpersons/lib/json_web_token.rb&#10;rout&#9;FILE&#9;file://C:/Projects/Web/Code/missingpersons/config/routes.rb&#10;R&#9;FILE&#9;file://C:/Projects/Web/Code/missingpersons/config/routes.rb&#10;app&#9;null&#9;null&#10;pu&#9;FILE&#9;file://C:/Projects/Web/Code/missingpersons/app/models/public_user.rb&#10;GE&#9;FILE&#9;file://C:/Projects/Web/Code/missingpersons/Gemfile&#10;PUser&#9;FILE&#9;file://C:/Projects/Web/Code/missingpersons/test/fixtures/p_users.yml&#10;_me&#9;FILE&#9;file://C:/Projects/Web/Code/missingpersons/app/views/shared/_menu.html.erb&#10;ou&#9;FILE&#9;file://C:/Projects/Web/Code/missingpersons/config/routes.rb&#10;sign_in&#9;FILE&#9;file://C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/devise-4.2.1/lib/devise/controllers/sign_in_out.rb&#10;sign&#9;FILE&#9;file://C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/devise-4.2.1/lib/devise/controllers/sign_in_out.rb" />
     <property name="com.intellij.database.dataSource.DataSourceTemplate" value="PostgreSQL&#10;Sqlite (Xerial)" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
   </component>
@@ -825,12 +848,12 @@
       <workItem from="1509953552315" duration="5697000" />
       <workItem from="1509967714988" duration="1715000" />
       <workItem from="1509970859010" duration="739000" />
-      <workItem from="1509975101795" duration="495000" />
+      <workItem from="1509975101795" duration="2409000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="106851000" />
+    <option name="totallyTimeSpent" value="108765000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1370" height="744" extended-state="0" />
@@ -841,20 +864,20 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.34065935" sideWeight="0.5030257" order="11" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15954198" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.34065935" sideWeight="0.4969743" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32967034" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Database Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32967034" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32967034" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -1038,20 +1061,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/sightings/show.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1343">
-          <caret line="79" column="0" lean-forward="false" selection-start-line="79" selection-start-column="0" selection-end-line="79" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/cases/show.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="799">
-          <caret line="47" column="30" lean-forward="false" selection-start-line="47" selection-start-column="30" selection-end-line="47" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/db/migrate/20171010100804_create_sightings.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
@@ -1066,13 +1075,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
           <caret line="11" column="26" lean-forward="false" selection-start-line="11" selection-start-column="26" selection-end-line="11" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/case.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="0" lean-forward="true" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -1132,30 +1134,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/api/v1/api_controller.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="27" column="47" lean-forward="false" selection-start-line="27" selection-start-column="47" selection-end-line="27" selection-end-column="47" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/uploaders/image_uploader.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="35" lean-forward="false" selection-start-line="4" selection-start-column="35" selection-end-line="4" selection-end-column="35" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/sighting.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="dbDummy://dbtable:/4f8d8e62/31ac04b5-00bb-40c4-b7e5-f383f45b379a/missingpersons.public.sightings">
       <provider editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -1166,6 +1144,54 @@
       <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
         <state>
           <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/case.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="0" lean-forward="true" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/sighting.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="0" lean-forward="true" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/uploaders/image_uploader.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="25" column="29" lean-forward="true" selection-start-line="25" selection-start-column="29" selection-end-line="25" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/api/v1/api_controller.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="185">
+          <caret line="23" column="0" lean-forward="true" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/cases/show.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="578">
+          <caret line="47" column="30" lean-forward="false" selection-start-line="47" selection-start-column="30" selection-end-line="47" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/sightings/show.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="449">
+          <caret line="35" column="12" lean-forward="true" selection-start-line="35" selection-start-column="12" selection-end-line="35" selection-end-column="12" />
+          <folding />
         </state>
       </provider>
     </entry>
