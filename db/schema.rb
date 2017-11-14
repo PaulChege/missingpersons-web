@@ -22,6 +22,8 @@ ActiveRecord::Schema.define(version: 20171026131034) do
     t.float    "weight"
     t.string   "body_type"
     t.string   "location_last_seen"
+    t.float    "location_last_seen_lat"
+    t.float    "location_last_seen_lon"
     t.date     "date_last_seen"
     t.text     "description"
     t.string   "status"
@@ -29,8 +31,8 @@ ActiveRecord::Schema.define(version: 20171026131034) do
     t.string   "reporter_rel"
     t.integer  "public_user_id"
     t.string   "image"
-    t.datetime "created_at",         null: false
-    t.datetime "updated_at",         null: false
+    t.datetime "created_at",             null: false
+    t.datetime "updated_at",             null: false
   end
 
   create_table "matches", force: :cascade do |t|
@@ -61,6 +63,8 @@ ActiveRecord::Schema.define(version: 20171026131034) do
     t.float    "weight"
     t.text     "description"
     t.string   "location"
+    t.float    "location_lat"
+    t.float    "location_lon"
     t.string   "image"
     t.datetime "created_at",     null: false
     t.datetime "updated_at",     null: false

@@ -32,15 +32,12 @@ class Api::V1::ApiController < Api::V1::BaseController
                            body_type: params[:body_type],
                            location: params[:location],
                            description: params[:description],
-                            image: params[:image]
+                           image: params[:image]
       )
-
-      if s.save!
+      if Sighting.get_matching_cases(s) && s.save!
         render json: {status: "success",message: "Sighting reported"}
       else
         render json: {status: "error",code: "400",message: "Cannot report sighting"}
       end
   end
-
-
 end

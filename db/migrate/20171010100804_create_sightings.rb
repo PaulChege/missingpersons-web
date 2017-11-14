@@ -9,6 +9,8 @@ class CreateSightings < ActiveRecord::Migration[5.0]
       t.float :weight
       t.text :description
       t.string :location
+      t.float :location_lat
+      t.float :location_lon
       t.string :image
       t.timestamps
     end

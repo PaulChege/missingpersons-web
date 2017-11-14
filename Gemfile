@@ -33,9 +33,16 @@ gem 'devise'
 
 #bcrypt
 
+
+#Levenshtein
+gem 'levenshtein', '~> 0.2.2'
+
 gem 'bcrypt', platforms: :ruby
 #jwt
 gem 'jwt'
+
+#rest-client
+gem 'rest-client'
 
 #simple_command
 gem 'simple_command'
