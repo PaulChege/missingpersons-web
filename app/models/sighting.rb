@@ -31,7 +31,7 @@ class Sighting < ApplicationRecord
 
 
   def self.distance_percent(first,second)
-    if (first && second) != nil
+    if ((first && second) != nil ) ||((first && second)!= "")
       max_distance = [first,second].max_by(&:length).length
       distance = Levenshtein.distance(first,second)
       return (100.0 / max_distance * distance)
