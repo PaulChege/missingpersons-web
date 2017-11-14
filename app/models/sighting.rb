@@ -13,7 +13,7 @@ class Sighting < ApplicationRecord
     if(by_name)
       by_name.each do |s|
         response = RestClient.post 'https://api-us.faceplusplus.com/facepp/v3/compare?api_key=rUbph1Cpz9cVBbskoYNKBtl9rz4ZVdaW&api_secret=5sBD-MKfPYCqvJndTqaDeWQM7d26Lm5K',
-                                   :image_file1 => File.new("stormy-ravine-82740.herokuapp.com/public/uploads/case/image/3/1510658876795.png"),:image_file2 => File.new("stormy-ravine-82740.herokuapp.com/public/uploads/case/image/3/1510658876795.png")
+                                   :image_file1 => File.new("/public/uploads/case/image/3/1510658876795.png"),:image_file2 => File.new("/public/uploads/case/image/3/1510658876795.png")
         Match.create(case_id: s.id,sighting_id: sighting.id,description_match: distance_percent(sighting.description,s.description) , image_match:JSON.parse(response)["confidence"])
       end
             else if (by_other)
