@@ -26,7 +26,7 @@ class Sighting < ApplicationRecord
                end
                  end
     end
-
+s
   end
 
 
