@@ -45,5 +45,4 @@ class Api::V1::ApiController < Api::V1::BaseController
         render json: {status: "error",code: "400",message: "Cannot report sighting"}
       end
   end
-
 end

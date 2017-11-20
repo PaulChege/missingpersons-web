@@ -258,7 +258,7 @@
         function initMap() {
 
             var map = new google.maps.Map(document.getElementById('map'), {
-                zoom: 8,
+                zoom: 12,
                 center: {lat: <%= @c.location_last_seen_lat %>, lng: <%= @c.location_last_seen_lon %> }
             });
 
@@ -277,12 +277,15 @@
             var locations = [
 
                 <% @matches.each do |m| %>
-                { position : new google.maps.LatLng(<%= m.sighting.location_lat %>, <%= m.sighting.location_lon %>),
+                <% unless m.sighting.location_lat.nil? %>
+                { position : new google.maps.LatLng(<%=  m.sighting.location_lat %>, <%= m.sighting.location_lon %>),
                     type : 'sighting',
                     info : new google.maps.InfoWindow({
                         content: '<b>Sighting #</b>' + '<%= m.sighting.id %>' + '<p>by ' + '<%= m.sighting.public_user.name %>' + '</p'
                     })
-        },
+                 },
+
+                <% end %>
                 <% end %>
                 { position : new google.maps.LatLng(<%= @c.location_last_seen_lat %>, <%= @c.location_last_seen_lon %>),
                     type : 'case',
