@@ -15,6 +15,7 @@ class Sighting < ApplicationRecord
       by_name.each do |s|
         response = RestClient.post 'https://api-us.faceplusplus.com/facepp/v3/compare?api_key=rUbph1Cpz9cVBbskoYNKBtl9rz4ZVdaW&api_secret=5sBD-MKfPYCqvJndTqaDeWQM7d26Lm5K',
                                    {:image_url1 => s.image_url,:image_url2 => image_url}
+        puts response
         Match.create(case_id: s.id,sighting_id: sighting.id,description_match: distance_percent(sighting.description,s.description) , image_match:JSON.parse(response)["confidence"])
       end
             else if (by_other)
