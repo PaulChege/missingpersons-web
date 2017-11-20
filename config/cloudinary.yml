@@ -1,0 +1,19 @@
+---
+development:
+  cloud_name: dplzmr2td
+  api_key: '259283449666713'
+  api_secret: 0eG-38XQbBbaZBJYEo2ZKhEKiNY
+  enhance_image_tag: true
+  static_image_support: false
+production:
+  cloud_name: dplzmr2td
+  api_key: '259283449666713'
+  api_secret: 0eG-38XQbBbaZBJYEo2ZKhEKiNY
+  enhance_image_tag: true
+  static_image_support: true
+test:
+  cloud_name: dplzmr2td
+  api_key: '259283449666713'
+  api_secret: 0eG-38XQbBbaZBJYEo2ZKhEKiNY
+  enhance_image_tag: true
+  static_image_support: false

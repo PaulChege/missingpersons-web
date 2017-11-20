@@ -49,6 +49,8 @@ gem 'simple_command'
 
 #images
 gem 'carrierwave'
+gem 'cloudinary'
+
 
 # Use Redis adapter to run Action Cable in production
 # gem 'redis', '~> 3.0'
