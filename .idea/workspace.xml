@@ -2,19 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7262071c-578d-45a8-b473-bb486a3b0dd8" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/images/m1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/case_marker.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/m1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/sighting_marker.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/assets/javascripts/markerclusterer.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/api/v1/api_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/api/v1/api_controller.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/cases/index.html.erb" afterPath="$PROJECT_DIR$/app/views/cases/index.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/cases/show.html.erb" afterPath="$PROJECT_DIR$/app/views/cases/show.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/shared/_header.html.erb" afterPath="$PROJECT_DIR$/app/views/shared/_header.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/sightings/index.html.erb" afterPath="$PROJECT_DIR$/app/views/sightings/index.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/sightings/show.html.erb" afterPath="$PROJECT_DIR$/app/views/sightings/show.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/initializers/assets.rb" afterPath="$PROJECT_DIR$/config/initializers/assets.rb" />
     </list>
     <ignored path="$PROJECT_DIR$/.bundle/" />
     <ignored path="$PROJECT_DIR$/components/" />
@@ -90,11 +78,31 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="show.html.erb" pinned="false" current-in-tab="true">
+      <file leaf-file-name="api_controller.rb" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/controllers/api/v1/api_controller.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="323">
+              <caret line="19" column="16" lean-forward="true" selection-start-line="19" selection-start-column="16" selection-end-line="19" selection-end-column="16" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="20171010101132_create_cases.rb" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/db/migrate/20171010101132_create_cases.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="153">
+              <caret line="9" column="33" lean-forward="true" selection-start-line="9" selection-start-column="24" selection-end-line="9" selection-end-column="33" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="show.html.erb" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/cases/show.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="531">
-              <caret line="294" column="50" lean-forward="true" selection-start-line="294" selection-start-column="50" selection-end-line="294" selection-end-column="50" />
+            <state relative-caret-position="242">
+              <caret line="277" column="0" lean-forward="false" selection-start-line="277" selection-start-column="0" selection-end-line="277" selection-end-column="0" />
               <folding>
                 <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#2;n#div#0;n#div#0;n#div#0;n#div#2;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
@@ -211,7 +219,6 @@
         <option value="$PROJECT_DIR$/Gemfile" />
         <option value="$PROJECT_DIR$/app/uploaders/image_uploader.rb" />
         <option value="$PROJECT_DIR$/app/models/sighting.rb" />
-        <option value="$PROJECT_DIR$/app/controllers/api/v1/api_controller.rb" />
         <option value="$PROJECT_DIR$/config/initializers/assets.rb" />
         <option value="$PROJECT_DIR$/app/views/shared/_header.html.erb" />
         <option value="$PROJECT_DIR$/app/views/cases/index.html.erb" />
@@ -219,6 +226,7 @@
         <option value="$PROJECT_DIR$/app/views/sightings/show.html.erb" />
         <option value="$PROJECT_DIR$/vendor/assets/javascripts/markerclusterer.js" />
         <option value="$PROJECT_DIR$/app/views/cases/show.html.erb" />
+        <option value="$PROJECT_DIR$/app/controllers/api/v1/api_controller.rb" />
       </list>
     </option>
   </component>
@@ -707,7 +715,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="SearchEverywhereHistoryKey" value="inde&#9;FILE&#9;file://C:/projects/web/code/missingpersons/app/views/sightings/index.html.erb&#10;ind&#9;FILE&#9;file://C:/projects/web/code/missingpersons/app/views/cases/index.html.erb&#10;sh&#9;FILE&#9;file://C:/projects/web/code/missingpersons/app/views/cases/show.html.erb&#10;f&#9;FILE&#9;file://C:/projects/web/code/missingpersons/app/views/shared/_footer.html.erb&#10;footer&#9;FILE&#9;file://C:/projects/web/code/missingpersons/app/views/shared/_footer.html.erb&#10;me&#9;FILE&#9;file://C:/projects/web/code/missingpersons/app/views/shared/_menu.html.erb&#10;hea&#9;FILE&#9;file://C:/projects/web/code/missingpersons/app/views/shared/_header.html.erb&#10;a&#9;FILE&#9;file://C:/projects/web/code/missingpersons/app/controllers/api/v1/api_controller.rb&#10;s&#9;FILE&#9;file://C:/projects/web/code/missingpersons/app/models/sighting.rb&#10;case&#9;FILE&#9;file://C:/projects/web/code/missingpersons/app/models/case.rb&#10;im&#9;FILE&#9;file://C:/projects/web/code/missingpersons/app/uploaders/image_uploader.rb&#10;si&#9;FILE&#9;file://C:/projects/web/code/missingpersons/app/models/sighting.rb&#10;api&#9;FILE&#9;file://C:/projects/web/code/missingpersons/app/controllers/api/v1/api_controller.rb&#10;ima&#9;FILE&#9;file://C:/projects/web/code/missingpersons/app/uploaders/image_uploader.rb&#10;e&#9;FILE&#9;file://C:/projects/web/code/missingpersons/Gemfile&#10;gemf&#9;FILE&#9;file://C:/projects/web/code/missingpersons/Gemfile&#10;ap&#9;FILE&#9;file://C:/projects/web/code/missingpersons/app/controllers/api/v1/api_controller.rb&#10;sigh&#9;FILE&#9;file://C:/projects/web/code/missingpersons/app/models/sighting.rb&#10;sho&#9;FILE&#9;file://C:/projects/web/code/missingpersons/app/views/cases/show.html.erb&#10;show&#9;FILE&#9;file://C:/projects/web/code/missingpersons/app/views/cases/show.html.erb&#10;ge&#9;FILE&#9;file://C:/projects/web/code/missingpersons/Gemfile&#10;Ge&#9;FILE&#9;file://C:/projects/web/code/missingpersons/Gemfile&#10;crea&#9;FILE&#9;file://C:/projects/web/code/missingpersons/db/migrate/20171011082838_create_matches.rb&#10;server&#9;FILE&#9;file://C:/Projects/Web/Code/missingpersons/tmp/pids/server.pid&#10;rou&#9;FILE&#9;file://C:/Projects/Web/Code/missingpersons/config/routes.rb&#10;seed&#9;FILE&#9;file://C:/Projects/Web/Code/missingpersons/db/seeds.rb&#10;cas&#9;FILE&#9;file://C:/Projects/Web/Code/missingpersons/app/models/case.rb&#10;see&#9;FILE&#9;file://C:/Projects/Web/Code/missingpersons/db/seeds.rb&#10;ca&#9;FILE&#9;file://C:/Projects/Web/Code/missingpersons/app/models/case.rb&#10;Si&#9;FILE&#9;file://C:/Projects/Web/Code/missingpersons/app/models/sighting.rb&#10;gEM&#9;FILE&#9;file://C:/Projects/Web/Code/missingpersons/Gemfile&#10;r&#9;FILE&#9;file://C:/Projects/Web/Code/missingpersons/config/routes.rb&#10;ro&#9;FILE&#9;file://C:/Projects/Web/Code/missingpersons/config/routes.rb&#10;mer&#9;FILE&#9;file://C:/Projects/Web/Code/missingpersons/app/views/shared/_menu.html.erb&#10;au&#9;FILE&#9;file://C:/Projects/Web/Code/missingpersons/app/commands/authenticate_user.rb&#10;js&#9;FILE&#9;file://C:/Projects/Web/Code/missingpersons/lib/json_web_token.rb&#10;rout&#9;FILE&#9;file://C:/Projects/Web/Code/missingpersons/config/routes.rb&#10;R&#9;FILE&#9;file://C:/Projects/Web/Code/missingpersons/config/routes.rb&#10;app&#9;null&#9;null&#10;pu&#9;FILE&#9;file://C:/Projects/Web/Code/missingpersons/app/models/public_user.rb&#10;GE&#9;FILE&#9;file://C:/Projects/Web/Code/missingpersons/Gemfile&#10;PUser&#9;FILE&#9;file://C:/Projects/Web/Code/missingpersons/test/fixtures/p_users.yml&#10;_me&#9;FILE&#9;file://C:/Projects/Web/Code/missingpersons/app/views/shared/_menu.html.erb&#10;ou&#9;FILE&#9;file://C:/Projects/Web/Code/missingpersons/config/routes.rb&#10;sign_in&#9;FILE&#9;file://C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/devise-4.2.1/lib/devise/controllers/sign_in_out.rb&#10;sign&#9;FILE&#9;file://C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/devise-4.2.1/lib/devise/controllers/sign_in_out.rb" />
+    <property name="SearchEverywhereHistoryKey" value="api&#9;FILE&#9;file://C:/projects/web/code/missingpersons/app/controllers/api/v1/api_controller.rb&#10;inde&#9;FILE&#9;file://C:/projects/web/code/missingpersons/app/views/sightings/index.html.erb&#10;ind&#9;FILE&#9;file://C:/projects/web/code/missingpersons/app/views/cases/index.html.erb&#10;sh&#9;FILE&#9;file://C:/projects/web/code/missingpersons/app/views/cases/show.html.erb&#10;f&#9;FILE&#9;file://C:/projects/web/code/missingpersons/app/views/shared/_footer.html.erb&#10;footer&#9;FILE&#9;file://C:/projects/web/code/missingpersons/app/views/shared/_footer.html.erb&#10;me&#9;FILE&#9;file://C:/projects/web/code/missingpersons/app/views/shared/_menu.html.erb&#10;hea&#9;FILE&#9;file://C:/projects/web/code/missingpersons/app/views/shared/_header.html.erb&#10;a&#9;FILE&#9;file://C:/projects/web/code/missingpersons/app/controllers/api/v1/api_controller.rb&#10;s&#9;FILE&#9;file://C:/projects/web/code/missingpersons/app/models/sighting.rb&#10;case&#9;FILE&#9;file://C:/projects/web/code/missingpersons/app/models/case.rb&#10;im&#9;FILE&#9;file://C:/projects/web/code/missingpersons/app/uploaders/image_uploader.rb&#10;si&#9;FILE&#9;file://C:/projects/web/code/missingpersons/app/models/sighting.rb&#10;ima&#9;FILE&#9;file://C:/projects/web/code/missingpersons/app/uploaders/image_uploader.rb&#10;e&#9;FILE&#9;file://C:/projects/web/code/missingpersons/Gemfile&#10;gemf&#9;FILE&#9;file://C:/projects/web/code/missingpersons/Gemfile&#10;ap&#9;FILE&#9;file://C:/projects/web/code/missingpersons/app/controllers/api/v1/api_controller.rb&#10;sigh&#9;FILE&#9;file://C:/projects/web/code/missingpersons/app/models/sighting.rb&#10;sho&#9;FILE&#9;file://C:/projects/web/code/missingpersons/app/views/cases/show.html.erb&#10;show&#9;FILE&#9;file://C:/projects/web/code/missingpersons/app/views/cases/show.html.erb&#10;ge&#9;FILE&#9;file://C:/projects/web/code/missingpersons/Gemfile&#10;Ge&#9;FILE&#9;file://C:/projects/web/code/missingpersons/Gemfile&#10;crea&#9;FILE&#9;file://C:/projects/web/code/missingpersons/db/migrate/20171011082838_create_matches.rb&#10;server&#9;FILE&#9;file://C:/Projects/Web/Code/missingpersons/tmp/pids/server.pid&#10;rou&#9;FILE&#9;file://C:/Projects/Web/Code/missingpersons/config/routes.rb&#10;seed&#9;FILE&#9;file://C:/Projects/Web/Code/missingpersons/db/seeds.rb&#10;cas&#9;FILE&#9;file://C:/Projects/Web/Code/missingpersons/app/models/case.rb&#10;see&#9;FILE&#9;file://C:/Projects/Web/Code/missingpersons/db/seeds.rb&#10;ca&#9;FILE&#9;file://C:/Projects/Web/Code/missingpersons/app/models/case.rb&#10;Si&#9;FILE&#9;file://C:/Projects/Web/Code/missingpersons/app/models/sighting.rb&#10;gEM&#9;FILE&#9;file://C:/Projects/Web/Code/missingpersons/Gemfile&#10;r&#9;FILE&#9;file://C:/Projects/Web/Code/missingpersons/config/routes.rb&#10;ro&#9;FILE&#9;file://C:/Projects/Web/Code/missingpersons/config/routes.rb&#10;mer&#9;FILE&#9;file://C:/Projects/Web/Code/missingpersons/app/views/shared/_menu.html.erb&#10;au&#9;FILE&#9;file://C:/Projects/Web/Code/missingpersons/app/commands/authenticate_user.rb&#10;js&#9;FILE&#9;file://C:/Projects/Web/Code/missingpersons/lib/json_web_token.rb&#10;rout&#9;FILE&#9;file://C:/Projects/Web/Code/missingpersons/config/routes.rb&#10;R&#9;FILE&#9;file://C:/Projects/Web/Code/missingpersons/config/routes.rb&#10;app&#9;null&#9;null&#10;pu&#9;FILE&#9;file://C:/Projects/Web/Code/missingpersons/app/models/public_user.rb&#10;GE&#9;FILE&#9;file://C:/Projects/Web/Code/missingpersons/Gemfile&#10;PUser&#9;FILE&#9;file://C:/Projects/Web/Code/missingpersons/test/fixtures/p_users.yml&#10;_me&#9;FILE&#9;file://C:/Projects/Web/Code/missingpersons/app/views/shared/_menu.html.erb&#10;ou&#9;FILE&#9;file://C:/Projects/Web/Code/missingpersons/config/routes.rb&#10;sign_in&#9;FILE&#9;file://C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/devise-4.2.1/lib/devise/controllers/sign_in_out.rb&#10;sign&#9;FILE&#9;file://C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/devise-4.2.1/lib/devise/controllers/sign_in_out.rb" />
     <property name="com.intellij.database.dataSource.DataSourceTemplate" value="PostgreSQL&#10;Sqlite (Xerial)" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
   </component>
@@ -948,15 +956,16 @@
       <workItem from="1510645421369" duration="16247000" />
       <workItem from="1510734709268" duration="3439000" />
       <workItem from="1510749301085" duration="532000" />
-      <workItem from="1511160721665" duration="22997000" />
+      <workItem from="1511160721665" duration="24325000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="168410000" />
+    <option name="totallyTimeSpent" value="169738000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="0" width="1378" height="744" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2693475" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -965,7 +974,7 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.33908948" sideWeight="0.4969743" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.33908948" sideWeight="0.4969743" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -1138,14 +1147,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/db/migrate/20171010101132_create_cases.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="28" lean-forward="false" selection-start-line="15" selection-start-column="28" selection-end-line="15" selection-end-column="28" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/db/migrate/20171010100804_create_sightings.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
@@ -1207,14 +1208,6 @@
             <marker date="1511181361697" expanded="true" signature="1636:1921" ph=" ... end" />
             <marker date="1511181361697" expanded="true" signature="1641:1916" ph="if ... end" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/api/v1/api_controller.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="25" column="0" lean-forward="true" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1349,13 +1342,29 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/db/migrate/20171010101132_create_cases.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="33" lean-forward="true" selection-start-line="9" selection-start-column="24" selection-end-line="9" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/views/cases/show.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="531">
-          <caret line="294" column="50" lean-forward="true" selection-start-line="294" selection-start-column="50" selection-end-line="294" selection-end-column="50" />
+        <state relative-caret-position="242">
+          <caret line="277" column="0" lean-forward="false" selection-start-line="277" selection-start-column="0" selection-end-line="277" selection-end-column="0" />
           <folding>
             <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#2;n#div#0;n#div#0;n#div#0;n#div#2;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/api/v1/api_controller.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" column="16" lean-forward="true" selection-start-line="19" selection-start-column="16" selection-end-line="19" selection-end-column="16" />
+          <folding />
         </state>
       </provider>
     </entry>

@@ -13,8 +13,8 @@ class Api::V1::ApiController < Api::V1::BaseController
           reporter_rel: params[:reporter_rel],
           town: params[:town],
           image: params[:image],
-          location_lat: params[:latitude],
-          location_lon: params[:longitude]
+          location_last_seen_lat: params[:latitude],
+          location_last_seen_lon: params[:longitude]
 
       )
       if c.save!
