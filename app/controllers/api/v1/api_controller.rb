@@ -38,7 +38,7 @@ class Api::V1::ApiController < Api::V1::BaseController
                            location_lat: params[:latitude],
                            location_lon: params[:longitude]
       )
-      if Sighting.get_matching_cases(s)
+      if  s.save! && Sighting.get_matching_cases(s)
         render json: {status: "success",message: "Sighting reported"}
       else
         render json: {status: "error",code: "400",message: "Cannot report sighting"}

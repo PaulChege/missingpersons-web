@@ -11,18 +11,18 @@ class Sighting < ApplicationRecord
     image_url=Sighting.find(sighting.id).image_url
 
 
-    if(by_name)
+    if by_name
       by_name.each do |s|
         response = RestClient.post 'https://api-us.faceplusplus.com/facepp/v3/compare?api_key=rUbph1Cpz9cVBbskoYNKBtl9rz4ZVdaW&api_secret=5sBD-MKfPYCqvJndTqaDeWQM7d26Lm5K',
                                    {:image_url1 => s.image_url,:image_url2 => image_url}
         puts response
         Match.create(case_id: s.id,sighting_id: sighting.id,description_match: distance_percent(sighting.description,s.description) , image_match:JSON.parse(response)["confidence"])
       end
-            else if (by_other)
+            else if by_other
                by_other.each do |s|
                 if (desc_match = distance_percent(sighting.description,s.description)) > 50
                   response = RestClient.post 'https://api-us.faceplusplus.com/facepp/v3/compare?api_key=rUbph1Cpz9cVBbskoYNKBtl9rz4ZVdaW&api_secret=5sBD-MKfPYCqvJndTqaDeWQM7d26Lm5K',
-                                             :image_file1 => File.new(s.image.path),:image_file2 => File.new(sighting.image.path)
+                                             {:image_url1 => s.image_url,:image_url2 => image_url}
                   Match.create(case_id: s.id,sighting_id: sighting.id,description_match: desc_match, image_match: JSON.parse(response)["confidence"])
                 end
                end
