@@ -12,7 +12,9 @@ class Api::V1::ApiController < Api::V1::BaseController
           status: "Active",
           reporter_rel: params[:reporter_rel],
           town: params[:town],
-          image: params[:image]
+          image: params[:image],
+          location_lat: params[:latitude],
+          location_lon: params[:longitude]
 
       )
       if c.save!
@@ -32,7 +34,9 @@ class Api::V1::ApiController < Api::V1::BaseController
                            body_type: params[:body_type],
                            location: params[:location],
                            description: params[:description],
-                           image: params[:image]
+                           image: params[:image],
+                           location_lat: params[:latitude],
+                           location_lon: params[:longitude]
       )
       if Sighting.get_matching_cases(s)
         render json: {status: "success",message: "Sighting reported"}
@@ -40,6 +44,5 @@ class Api::V1::ApiController < Api::V1::BaseController
         render json: {status: "error",code: "400",message: "Cannot report sighting"}
       end
   end
-
 
 end

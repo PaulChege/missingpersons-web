@@ -3,10 +3,16 @@
 
 <head>
     <%= render 'shared/header' %>
+  <style>
+    /* Always set the map height explicitly to define the size of the div
+     * element that contains the map. */
+
+  </style>
 </head>
 
 <body>
     <%= render 'shared/menu' %>
+
 
     <div class="col-sm-9 col-sm-offset-3 col-lg-10 col-lg-offset-2 main">
         <div class="row">
@@ -32,21 +38,7 @@
                             <img height="200px" width="200px" src=<%= image_path @c.image_url %>>
                         </div>
                     </div>
-                    <div class="col-md-3">
-                        <div class="panel-body">
-                            <img height="200px" width="200px" src=<%= image_path('profile.png') %>>
-                        </div>
-                    </div>
-                    <div class="col-md-3">
-                        <div class="panel-body">
-                            <img height="200px" width="200px" src=<%= image_path('profile.png') %>>
-                        </div>
-                    </div>
-                    <div class="col-md-3">
-                        <div class="panel-body">
-                            <img height="200px" width="200px" src=<%= image_path('profile.png') %>>
-                        </div>
-                    </div>
+
                 </div>
 
             </div>
@@ -178,8 +170,13 @@
                             <div class="tab-pane fade" id="tab3">
                                 <div class="panel panel-default">
                                     <div class="panel-body">
+
                                         <div class="row">
                                             <div class="col-md-12">
+
+                                              <div style="height:500px; width:1000px;" id="map"></div>
+
+
                                                <table id = "sightings" class="table table-hover">
                                                                 <thead>
                                                                     <tr>
@@ -254,6 +251,68 @@
     </div>
     <!--/.main-->
 <%= render 'shared/footer' %>
+
+
+    <script>
+
+        function initMap() {
+
+            var map = new google.maps.Map(document.getElementById('map'), {
+                zoom: 8,
+                center: {lat: <%= @c.location_last_seen_lat %>, lng: <%= @c.location_last_seen_lon %> }
+            });
+
+            // Create an array of alphabetical characters used to label the markers.
+            var labels = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ';
+
+            var icons = {
+                case: {
+                    icon : "https://maps.google.com/mapfiles/kml/paddle/blu-square.png"
+                },
+                sighting: {
+                    icon : "https://maps.google.com/mapfiles/kml/paddle/red-stars.png"
+                }
+            }
+
+            var locations = [
+
+                <% @matches.each do |m| %>
+                { position : new google.maps.LatLng(<%= m.sighting.location_lat %>, <%= m.sighting.location_lon %>),
+                    type : 'sighting',
+                    info : new google.maps.InfoWindow({
+                        content: '<b>Sighting #</b>' + '<%= m.sighting.id %>' + '<p>by ' + '<%= m.sighting.public_user.name %>' + '</p'
+                    })
+        },
+                <% end %>
+                { position : new google.maps.LatLng(<%= @c.location_last_seen_lat %>, <%= @c.location_last_seen_lon %>),
+                    type : 'case',
+                    info : new google.maps.InfoWindow({
+                        content: '<b>Case # </b>' + '<%= @c.id %>'  + '<p>Last seen location</p>'
+                    })
+                }
+            ]
+
+            locations.forEach(function(location) {
+                var marker = new google.maps.Marker({
+                    position: location.position,
+                    icon: icons[location.type].icon,
+                    map: map
+                });
+                marker.addListener('click', function() {
+                    location.info.open(map, marker);
+                });
+            });
+
+//            // Add a marker clusterer to manage the markers.
+//            var markerCluster = new MarkerClusterer(map, markers,
+//                {imagePath: "/images/m"});
+        }
+
+    </script>
+    <!--<%= javascript_include_tag ('markerclusterer') %>-->
+    <script async defer
+            src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBncEOSdIzSMlO-cwTVCofNQDNoEEv6V9o&callback=initMap">
+    </script>
 
 </body>
 
