@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7262071c-578d-45a8-b473-bb486a3b0dd8" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/home_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/home_controller.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/cases_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/cases_controller.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/cases/show.html.erb" afterPath="$PROJECT_DIR$/app/views/cases/show.html.erb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db/seeds.rb" afterPath="$PROJECT_DIR$/db/seeds.rb" />
     </list>
     <ignored path="$PROJECT_DIR$/.bundle/" />
     <ignored path="$PROJECT_DIR$/components/" />
@@ -132,17 +134,61 @@
         <entry file="file://$PROJECT_DIR$/app/views/cases/show.html.erb">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="5355">
-              <caret line="315" column="42" lean-forward="false" selection-start-line="315" selection-start-column="42" selection-end-line="315" selection-end-column="42" />
+              <caret line="328" column="42" lean-forward="false" selection-start-line="328" selection-start-column="42" selection-end-line="328" selection-end-column="42" />
+              <folding>
+                <marker date="1511901377575" expanded="true" signature="11059:15723" ph="..." />
+                <marker date="1511901377575" expanded="true" signature="11125:15704" ph="..." />
+                <marker date="1511901377575" expanded="true" signature="11186:15681" ph="..." />
+                <marker date="1511901377575" expanded="true" signature="11245:15648" ph="..." />
+                <marker date="1511901377575" expanded="true" signature="11313:15617" ph="..." />
+                <marker date="1511901377575" expanded="false" signature="11373:11397" ph="..." />
+                <marker date="1511901377575" expanded="true" signature="11512:15581" ph="..." />
+                <marker date="1511901377575" expanded="true" signature="11584:14325" ph="..." />
+                <marker date="1511901377575" expanded="true" signature="11657:14252" ph="..." />
+                <marker date="1511901377575" expanded="true" signature="11744:12052" ph="..." />
+                <marker date="1511901377575" expanded="true" signature="12138:12596" ph="..." />
+                <marker date="1511901377575" expanded="true" signature="12246:12413" ph="..." />
+                <marker date="1511901377575" expanded="false" signature="12298:12315" ph="..." />
+                <marker date="1511901377575" expanded="true" signature="12682:12992" ph="..." />
+                <marker date="1511901377575" expanded="true" signature="13078:13383" ph="..." />
+                <marker date="1511901377575" expanded="true" signature="13469:13777" ph="..." />
+                <marker date="1511901377575" expanded="true" signature="13863:14177" ph="..." />
+                <marker date="1511901377575" expanded="true" signature="14397:15515" ph="..." />
+                <marker date="1511901377575" expanded="true" signature="14480:15440" ph="do ... end" />
+                <marker date="1511901377575" expanded="true" signature="14580:15368" ph="..." />
+                <marker date="1511901377575" expanded="true" signature="15890:16027" ph="..." />
+                <marker date="1511901377575" expanded="true" signature="16042:18265" ph="..." />
+                <marker date="1511901377575" expanded="true" signature="16323:16602" ph="{...}" />
+                <marker date="1511901377575" expanded="true" signature="16347:16454" ph="{&quot;icon&quot;: &quot;https://maps.google.com/mapfiles/kml/paddle/blu-square.png&quot;...}" />
+                <marker date="1511901377575" expanded="true" signature="16482:16588" ph="{&quot;icon&quot;: &quot;https://maps.google.com/mapfiles/kml/paddle/red-stars.png&quot;...}" />
+                <marker date="1511901377575" expanded="true" signature="16632:17547" ph="[...]" />
+                <marker date="1511901377575" expanded="true" signature="16651:16985" ph="{&quot;type&quot;: 'case'...}" />
+                <marker date="1511901377575" expanded="true" signature="16845:16966" ph="{...}" />
+                <marker date="1511901377575" expanded="true" signature="17020:17529" ph="do ... end" />
+                <marker date="1511901377575" expanded="true" signature="17049:17503" ph="unless ... end" />
+                <marker date="1511901377575" expanded="true" signature="17104:17478" ph="{&quot;type&quot;: 'sighting'...}" />
+                <marker date="1511901377575" expanded="true" signature="17299:17458" ph="{...}" />
+                <marker date="1511901377575" expanded="true" signature="17594:17717" ph="{&quot;strokeColor&quot;: '##000000'...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="home_controller.rb" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/controllers/home_controller.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="68">
+              <caret line="4" column="31" lean-forward="true" selection-start-line="4" selection-start-column="31" selection-end-line="4" selection-end-column="31" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="home_controller.rb" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/controllers/home_controller.rb">
+      <file leaf-file-name="cases_controller.rb" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/controllers/cases_controller.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
-              <caret line="20" column="3" lean-forward="true" selection-start-line="20" selection-start-column="3" selection-end-line="20" selection-end-column="3" />
+            <state relative-caret-position="204">
+              <caret line="12" column="0" lean-forward="true" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -206,7 +252,6 @@
         <option value="$PROJECT_DIR$/app/commands/authorize_api_request.rb" />
         <option value="$PROJECT_DIR$/app/controllers/application_controller.rb" />
         <option value="$PROJECT_DIR$/app/controllers/authentication_controller.rb" />
-        <option value="$PROJECT_DIR$/app/controllers/cases_controller.rb" />
         <option value="$PROJECT_DIR$/lib/json_web_token.rb" />
         <option value="$PROJECT_DIR$/app/controllers/api/v1/base_controller.rb" />
         <option value="$PROJECT_DIR$/config/database.yml" />
@@ -240,6 +285,7 @@
         <option value="$PROJECT_DIR$/app/views/cases/show.html.erb" />
         <option value="$PROJECT_DIR$/Gemfile" />
         <option value="$PROJECT_DIR$/app/controllers/home_controller.rb" />
+        <option value="$PROJECT_DIR$/app/controllers/cases_controller.rb" />
       </list>
     </option>
   </component>
@@ -271,7 +317,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
+      <pane id="RailsProjectView" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -789,13 +835,13 @@
         </subPane>
       </pane>
       <pane id="Scratches" />
-      <pane id="RailsProjectView" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="SearchEverywhereHistoryKey" value="Hom&#9;FILE&#9;file://C:/projects/web/code/missingpersons/app/controllers/home_controller.rb&#10;railspus&#9;null&#9;null&#10;gem&#9;FILE&#9;file://C:/projects/web/code/missingpersons/Gemfile&#10;sh&#9;FILE&#9;file://C:/projects/web/code/missingpersons/app/views/cases/show.html.erb&#10;in&#9;FILE&#9;file://C:/projects/web/code/missingpersons/app/views/sightings/index.html.erb&#10;sho&#9;FILE&#9;file://C:/projects/web/code/missingpersons/app/views/sightings/show.html.erb&#10;show&#9;FILE&#9;file://C:/projects/web/code/missingpersons/app/views/cases/show.html.erb&#10;h&#9;FILE&#9;file://C:/projects/web/code/missingpersons/app/views/home/index.html.erb&#10;f\&#9;FILE&#9;file://C:/projects/web/code/missingpersons/app/views/shared/_footer.html.erb&#10;hea&#9;FILE&#9;file://C:/projects/web/code/missingpersons/app/views/shared/_header.html.erb&#10;hom&#9;FILE&#9;file://C:/projects/web/code/missingpersons/app/controllers/home_controller.rb&#10;inde&#9;FILE&#9;file://C:/projects/web/code/missingpersons/app/views/home/index.html.erb&#10;case&#9;FILE&#9;file://C:/projects/web/code/missingpersons/db/migrate/20171010101132_create_cases.rb&#10;si&#9;FILE&#9;file://C:/projects/web/code/missingpersons/app/models/sighting.rb&#10;ap&#9;FILE&#9;file://C:/projects/web/code/missingpersons/app/controllers/api/v1/api_controller.rb&#10;api&#9;FILE&#9;file://C:/projects/web/code/missingpersons/app/controllers/api/v1/api_controller.rb&#10;crea&#9;null&#9;null&#10;ind&#9;FILE&#9;file://C:/projects/web/code/missingpersons/app/views/cases/index.html.erb&#10;f&#9;FILE&#9;file://C:/projects/web/code/missingpersons/app/views/shared/_footer.html.erb&#10;footer&#9;FILE&#9;file://C:/projects/web/code/missingpersons/app/views/shared/_footer.html.erb&#10;me&#9;FILE&#9;file://C:/projects/web/code/missingpersons/app/views/shared/_menu.html.erb&#10;a&#9;FILE&#9;file://C:/projects/web/code/missingpersons/app/controllers/api/v1/api_controller.rb&#10;s&#9;FILE&#9;file://C:/projects/web/code/missingpersons/app/models/sighting.rb&#10;im&#9;FILE&#9;file://C:/projects/web/code/missingpersons/app/uploaders/image_uploader.rb&#10;ima&#9;FILE&#9;file://C:/projects/web/code/missingpersons/app/uploaders/image_uploader.rb&#10;e&#9;FILE&#9;file://C:/projects/web/code/missingpersons/Gemfile&#10;gemf&#9;FILE&#9;file://C:/projects/web/code/missingpersons/Gemfile&#10;sigh&#9;FILE&#9;file://C:/projects/web/code/missingpersons/app/models/sighting.rb&#10;ge&#9;FILE&#9;file://C:/projects/web/code/missingpersons/Gemfile&#10;Ge&#9;FILE&#9;file://C:/projects/web/code/missingpersons/Gemfile&#10;server&#9;FILE&#9;file://C:/Projects/Web/Code/missingpersons/tmp/pids/server.pid&#10;rou&#9;FILE&#9;file://C:/Projects/Web/Code/missingpersons/config/routes.rb&#10;seed&#9;FILE&#9;file://C:/Projects/Web/Code/missingpersons/db/seeds.rb&#10;cas&#9;FILE&#9;file://C:/Projects/Web/Code/missingpersons/app/models/case.rb&#10;see&#9;FILE&#9;file://C:/Projects/Web/Code/missingpersons/db/seeds.rb&#10;ca&#9;FILE&#9;file://C:/Projects/Web/Code/missingpersons/app/models/case.rb&#10;Si&#9;FILE&#9;file://C:/Projects/Web/Code/missingpersons/app/models/sighting.rb&#10;gEM&#9;FILE&#9;file://C:/Projects/Web/Code/missingpersons/Gemfile&#10;r&#9;FILE&#9;file://C:/Projects/Web/Code/missingpersons/config/routes.rb&#10;ro&#9;FILE&#9;file://C:/Projects/Web/Code/missingpersons/config/routes.rb&#10;mer&#9;FILE&#9;file://C:/Projects/Web/Code/missingpersons/app/views/shared/_menu.html.erb&#10;au&#9;FILE&#9;file://C:/Projects/Web/Code/missingpersons/app/commands/authenticate_user.rb&#10;js&#9;FILE&#9;file://C:/Projects/Web/Code/missingpersons/lib/json_web_token.rb&#10;rout&#9;FILE&#9;file://C:/Projects/Web/Code/missingpersons/config/routes.rb&#10;R&#9;FILE&#9;file://C:/Projects/Web/Code/missingpersons/config/routes.rb&#10;app&#9;null&#9;null&#10;pu&#9;FILE&#9;file://C:/Projects/Web/Code/missingpersons/app/models/public_user.rb&#10;GE&#9;FILE&#9;file://C:/Projects/Web/Code/missingpersons/Gemfile&#10;PUser&#9;FILE&#9;file://C:/Projects/Web/Code/missingpersons/test/fixtures/p_users.yml&#10;_me&#9;FILE&#9;file://C:/Projects/Web/Code/missingpersons/app/views/shared/_menu.html.erb" />
+    <property name="SearchEverywhereHistoryKey" value="Cas&#9;null&#9;null&#10;Hom&#9;FILE&#9;file://C:/projects/web/code/missingpersons/app/controllers/home_controller.rb&#10;railspus&#9;null&#9;null&#10;gem&#9;FILE&#9;file://C:/projects/web/code/missingpersons/Gemfile&#10;sh&#9;FILE&#9;file://C:/projects/web/code/missingpersons/app/views/cases/show.html.erb&#10;in&#9;FILE&#9;file://C:/projects/web/code/missingpersons/app/views/sightings/index.html.erb&#10;sho&#9;FILE&#9;file://C:/projects/web/code/missingpersons/app/views/sightings/show.html.erb&#10;show&#9;FILE&#9;file://C:/projects/web/code/missingpersons/app/views/cases/show.html.erb&#10;h&#9;FILE&#9;file://C:/projects/web/code/missingpersons/app/views/home/index.html.erb&#10;f\&#9;FILE&#9;file://C:/projects/web/code/missingpersons/app/views/shared/_footer.html.erb&#10;hea&#9;FILE&#9;file://C:/projects/web/code/missingpersons/app/views/shared/_header.html.erb&#10;hom&#9;FILE&#9;file://C:/projects/web/code/missingpersons/app/controllers/home_controller.rb&#10;inde&#9;FILE&#9;file://C:/projects/web/code/missingpersons/app/views/home/index.html.erb&#10;case&#9;FILE&#9;file://C:/projects/web/code/missingpersons/db/migrate/20171010101132_create_cases.rb&#10;si&#9;FILE&#9;file://C:/projects/web/code/missingpersons/app/models/sighting.rb&#10;ap&#9;FILE&#9;file://C:/projects/web/code/missingpersons/app/controllers/api/v1/api_controller.rb&#10;api&#9;FILE&#9;file://C:/projects/web/code/missingpersons/app/controllers/api/v1/api_controller.rb&#10;crea&#9;null&#9;null&#10;ind&#9;FILE&#9;file://C:/projects/web/code/missingpersons/app/views/cases/index.html.erb&#10;f&#9;FILE&#9;file://C:/projects/web/code/missingpersons/app/views/shared/_footer.html.erb&#10;footer&#9;FILE&#9;file://C:/projects/web/code/missingpersons/app/views/shared/_footer.html.erb&#10;me&#9;FILE&#9;file://C:/projects/web/code/missingpersons/app/views/shared/_menu.html.erb&#10;a&#9;FILE&#9;file://C:/projects/web/code/missingpersons/app/controllers/api/v1/api_controller.rb&#10;s&#9;FILE&#9;file://C:/projects/web/code/missingpersons/app/models/sighting.rb&#10;im&#9;FILE&#9;file://C:/projects/web/code/missingpersons/app/uploaders/image_uploader.rb&#10;ima&#9;FILE&#9;file://C:/projects/web/code/missingpersons/app/uploaders/image_uploader.rb&#10;e&#9;FILE&#9;file://C:/projects/web/code/missingpersons/Gemfile&#10;gemf&#9;FILE&#9;file://C:/projects/web/code/missingpersons/Gemfile&#10;sigh&#9;FILE&#9;file://C:/projects/web/code/missingpersons/app/models/sighting.rb&#10;ge&#9;FILE&#9;file://C:/projects/web/code/missingpersons/Gemfile&#10;Ge&#9;FILE&#9;file://C:/projects/web/code/missingpersons/Gemfile&#10;server&#9;FILE&#9;file://C:/Projects/Web/Code/missingpersons/tmp/pids/server.pid&#10;rou&#9;FILE&#9;file://C:/Projects/Web/Code/missingpersons/config/routes.rb&#10;seed&#9;FILE&#9;file://C:/Projects/Web/Code/missingpersons/db/seeds.rb&#10;cas&#9;FILE&#9;file://C:/Projects/Web/Code/missingpersons/app/models/case.rb&#10;see&#9;FILE&#9;file://C:/Projects/Web/Code/missingpersons/db/seeds.rb&#10;ca&#9;FILE&#9;file://C:/Projects/Web/Code/missingpersons/app/models/case.rb&#10;Si&#9;FILE&#9;file://C:/Projects/Web/Code/missingpersons/app/models/sighting.rb&#10;gEM&#9;FILE&#9;file://C:/Projects/Web/Code/missingpersons/Gemfile&#10;r&#9;FILE&#9;file://C:/Projects/Web/Code/missingpersons/config/routes.rb&#10;ro&#9;FILE&#9;file://C:/Projects/Web/Code/missingpersons/config/routes.rb&#10;mer&#9;FILE&#9;file://C:/Projects/Web/Code/missingpersons/app/views/shared/_menu.html.erb&#10;au&#9;FILE&#9;file://C:/Projects/Web/Code/missingpersons/app/commands/authenticate_user.rb&#10;js&#9;FILE&#9;file://C:/Projects/Web/Code/missingpersons/lib/json_web_token.rb&#10;rout&#9;FILE&#9;file://C:/Projects/Web/Code/missingpersons/config/routes.rb&#10;R&#9;FILE&#9;file://C:/Projects/Web/Code/missingpersons/config/routes.rb&#10;app&#9;null&#9;null&#10;pu&#9;FILE&#9;file://C:/Projects/Web/Code/missingpersons/app/models/public_user.rb&#10;GE&#9;FILE&#9;file://C:/Projects/Web/Code/missingpersons/Gemfile&#10;PUser&#9;FILE&#9;file://C:/Projects/Web/Code/missingpersons/test/fixtures/p_users.yml" />
     <property name="com.intellij.database.dataSource.DataSourceTemplate" value="PostgreSQL&#10;Sqlite (Xerial)" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
   </component>
@@ -1042,35 +1088,36 @@
       <workItem from="1511777559757" duration="6136000" />
       <workItem from="1511864817189" duration="2869000" />
       <workItem from="1511868651673" duration="883000" />
+      <workItem from="1511901411143" duration="413000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="192055000" />
+    <option name="totallyTimeSpent" value="192468000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.28895614" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2934947" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.34065935" sideWeight="0.5030257" order="11" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3290469" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.33124018" sideWeight="0.4969743" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32967034" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Database Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32967034" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32967034" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -1107,7 +1154,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="dbDummy://dbtable:/4e063242/fd9ad96d-deb7-4208-97c0-e01f0524d4c1/missingpersons.public.sightings" />
     <entry file="dbDummy://dbtable:/4e063242/fd9ad96d-deb7-4208-97c0-e01f0524d4c1/missingpersons.public.cases" />
     <entry file="dbDummy://dbtable:/4e063242/31ac04b5-00bb-40c4-b7e5-f383f45b379a/missingpersons.public.schema_migrations" />
     <entry file="dbDummy://dbtable:/4e063242/31ac04b5-00bb-40c4-b7e5-f383f45b379a/missingpersons.public.sightings" />
@@ -1166,7 +1212,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1295,7 +1340,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
           <caret line="12" column="27" lean-forward="false" selection-start-line="12" selection-start-column="27" selection-end-line="12" selection-end-column="27" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1303,7 +1347,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="323">
           <caret line="19" column="5" lean-forward="false" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1411,8 +1454,42 @@
     <entry file="file://$PROJECT_DIR$/app/views/cases/show.html.erb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="5355">
-          <caret line="315" column="42" lean-forward="false" selection-start-line="315" selection-start-column="42" selection-end-line="315" selection-end-column="42" />
-          <folding />
+          <caret line="328" column="42" lean-forward="false" selection-start-line="328" selection-start-column="42" selection-end-line="328" selection-end-column="42" />
+          <folding>
+            <marker date="1511901377575" expanded="true" signature="11059:15723" ph="..." />
+            <marker date="1511901377575" expanded="true" signature="11125:15704" ph="..." />
+            <marker date="1511901377575" expanded="true" signature="11186:15681" ph="..." />
+            <marker date="1511901377575" expanded="true" signature="11245:15648" ph="..." />
+            <marker date="1511901377575" expanded="true" signature="11313:15617" ph="..." />
+            <marker date="1511901377575" expanded="false" signature="11373:11397" ph="..." />
+            <marker date="1511901377575" expanded="true" signature="11512:15581" ph="..." />
+            <marker date="1511901377575" expanded="true" signature="11584:14325" ph="..." />
+            <marker date="1511901377575" expanded="true" signature="11657:14252" ph="..." />
+            <marker date="1511901377575" expanded="true" signature="11744:12052" ph="..." />
+            <marker date="1511901377575" expanded="true" signature="12138:12596" ph="..." />
+            <marker date="1511901377575" expanded="true" signature="12246:12413" ph="..." />
+            <marker date="1511901377575" expanded="false" signature="12298:12315" ph="..." />
+            <marker date="1511901377575" expanded="true" signature="12682:12992" ph="..." />
+            <marker date="1511901377575" expanded="true" signature="13078:13383" ph="..." />
+            <marker date="1511901377575" expanded="true" signature="13469:13777" ph="..." />
+            <marker date="1511901377575" expanded="true" signature="13863:14177" ph="..." />
+            <marker date="1511901377575" expanded="true" signature="14397:15515" ph="..." />
+            <marker date="1511901377575" expanded="true" signature="14480:15440" ph="do ... end" />
+            <marker date="1511901377575" expanded="true" signature="14580:15368" ph="..." />
+            <marker date="1511901377575" expanded="true" signature="15890:16027" ph="..." />
+            <marker date="1511901377575" expanded="true" signature="16042:18265" ph="..." />
+            <marker date="1511901377575" expanded="true" signature="16323:16602" ph="{...}" />
+            <marker date="1511901377575" expanded="true" signature="16347:16454" ph="{&quot;icon&quot;: &quot;https://maps.google.com/mapfiles/kml/paddle/blu-square.png&quot;...}" />
+            <marker date="1511901377575" expanded="true" signature="16482:16588" ph="{&quot;icon&quot;: &quot;https://maps.google.com/mapfiles/kml/paddle/red-stars.png&quot;...}" />
+            <marker date="1511901377575" expanded="true" signature="16632:17547" ph="[...]" />
+            <marker date="1511901377575" expanded="true" signature="16651:16985" ph="{&quot;type&quot;: 'case'...}" />
+            <marker date="1511901377575" expanded="true" signature="16845:16966" ph="{...}" />
+            <marker date="1511901377575" expanded="true" signature="17020:17529" ph="do ... end" />
+            <marker date="1511901377575" expanded="true" signature="17049:17503" ph="unless ... end" />
+            <marker date="1511901377575" expanded="true" signature="17104:17478" ph="{&quot;type&quot;: 'sighting'...}" />
+            <marker date="1511901377575" expanded="true" signature="17299:17458" ph="{...}" />
+            <marker date="1511901377575" expanded="true" signature="17594:17717" ph="{&quot;strokeColor&quot;: '##000000'...}" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1470,8 +1547,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/home_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="20" column="3" lean-forward="true" selection-start-line="20" selection-start-column="3" selection-end-line="20" selection-end-column="3" />
+        <state relative-caret-position="68">
+          <caret line="4" column="31" lean-forward="true" selection-start-line="4" selection-start-column="31" selection-end-line="4" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/cases_controller.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="0" lean-forward="true" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
           <folding />
         </state>
       </provider>

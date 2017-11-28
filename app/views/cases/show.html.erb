@@ -50,7 +50,13 @@
                                         <div class="panel panel-default">
                                           <div class="col-md-3">
                                             <div class="panel-body">
-                                              <img height="200px" width="200px" src=<%= image_path @c.image_url %>>
+                                              <img height="200px" width="200px" src=
+                                              <% if image_path @c.image_url == nil %>
+                                              <%=  image_path 'profile' %>
+                                              <% else %>
+                                               <%= image_path @c.image_url %>
+                                               <% end %>
+                                              >
                                             </div>
                                           </div>
                                         </div>
@@ -150,7 +156,23 @@
 
                                                                     <tr data-index="0">
                                                                         <td style="">Status</td>
-                                                                        <td style=""><%= @c.status %></td>
+                                                                        <td style="">
+                                                                        
+                                                                        <%= form_tag  cases_send_notification_path do%>
+                                                                      <input name="id" class="form-control" value ="<%= @c.id %>"  hidden>
+                                                    
+                                                                      <input name="status" class="form-control" value ="<%= @c.status %>" placeholder="e.g Investigation Ongoing ">
+                    
+                                            
+                                                                        </td>
+                                                                    </tr>
+                                                                    <tr>
+                                                                    <td>
+                                                                    </td>
+                                                                    <td>
+                                                                         <button type="submit" class="btn btn-sm btn-info">Send Status Notification</button>
+                                                                    <% end %>
+                                                                    <td
                                                                     </tr>
 
                                                                 </tbody>

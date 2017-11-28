@@ -2,9 +2,10 @@ Rails.application.routes.draw do
   devise_for :users
   # For details on the DSL available within this file, see http://guides.rubyonrails.org/routing.html
   root to: 'home#index'
-  resources :cases, only: [:index , :show ]
+  resources :cases
   resources :sightings, only: [:index,:show]
   resources :public_users, only: [:index]
+  post 'cases/send_notification', to: 'cases#send_notification'
 
 
 

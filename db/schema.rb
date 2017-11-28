@@ -27,7 +27,6 @@ ActiveRecord::Schema.define(version: 20171128104313) do
     t.date     "date_last_seen"
     t.text     "description"
     t.string   "status"
-    t.string   "town"
     t.string   "reporter_rel"
     t.integer  "public_user_id"
     t.string   "image"
@@ -50,8 +49,9 @@ ActiveRecord::Schema.define(version: 20171128104313) do
     t.string   "password_digest"
     t.string   "town"
     t.string   "status"
-    t.datetime "created_at",      null: false
-    t.datetime "updated_at",      null: false
+    t.string   "notification_token"
+    t.datetime "created_at",         null: false
+    t.datetime "updated_at",         null: false
   end
 
   create_table "rails_push_notifications_apns_apps", force: :cascade do |t|

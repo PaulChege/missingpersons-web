@@ -19,13 +19,21 @@
       <li class="active">Dashboard</li>
     </ol>
   </div>
+
+
+  <br>
+   <br>
+  <br>
+  <br>
+  <br>
   <div class="panel panel-container">
+  
     <div class="row">
       <div class="col-xs-6 col-md-3 col-lg-3 no-padding">
         <div class="panel panel-teal panel-widget border-right">
           <div class="row no-padding"><em class="fa fa-xl fa-clone color-teal"></em>
-            <div class="large"><%= @solved_cases %></div>
-            <div class="text-muted">Solved Cases</div>
+            <div class="large"><%= @matches %></div>
+            <div class="text-muted">Matched Sightings</div>
           </div>
         </div>
       </div>
@@ -60,21 +68,7 @@
     </div>
     <!--/.row-->
   </div>
-  <div class="row">
-    <div class="col-md-12">
-      <div class="panel panel-default">
-        <div class="panel-heading">
-          Sightings (Monthly)
 
-          <span class="pull-right clickable panel-toggle panel-button-tab-left"><em class="fa fa-toggle-up"></em></span></div>
-        <div class="panel-body">
-          <div class="canvas-wrapper">
-            <canvas class="main-chart" id="line-chart" height="200" width="600"></canvas>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
 
 </div>
 </div>
@@ -92,19 +86,6 @@
 
 <%= render('shared/footer') %>
 
-
-
-<script>
-    window.onload = function () {
-        var chart1 = document.getElementById("line-chart").getContext("2d");
-        window.myLine = new Chart(chart1).Line(lineChartData, {
-            responsive: true,
-            scaleLineColor: "rgba(0,0,0,.2)",
-            scaleGridLineColor: "rgba(0,0,0,.05)",
-            scaleFontColor: "#c5c7cc"
-        });
-    };
-</script>
 
 </body>
 

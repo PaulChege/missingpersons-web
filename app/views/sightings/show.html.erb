@@ -30,12 +30,18 @@
       <div class="panel panel-default">
         <div class="col-md-3">
           <div class="panel-body">
-            <img height="200px" width="200px" src= <%= image_path @sighting.image.url %> >
+            <img height="200px" width="200px" src= 
+           <% if image_path @sighting.image_url == nil %>
+                                              <%=  image_path 'profile' %>
+                                              <% else %>
+                                               <%= image_path @sighting.image_url %>
+                         <% end %>
+             >
           </div>
         </div>
       </div>
 
-    </div>+
+    </div>
 
 
 
