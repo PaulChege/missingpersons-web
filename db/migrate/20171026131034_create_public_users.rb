@@ -6,7 +6,7 @@ class CreatePublicUsers < ActiveRecord::Migration[5.0]
       t.string :password_digest
       t.string :town
       t.string :status
-
+      t.string :notification_token
       t.timestamps
     end
   end

@@ -14,9 +14,8 @@ Rails.application.routes.draw do
     post 'authenticate', to: 'authentication#authenticate'
     post 'create_case', to: 'api#create_case'
     post 'create_sighting', to: 'api#create_sighting'
+    post 'create_notification_token', to: 'api#create_notification_token'
     post 'signup', to: 'authentication#signup'
   end
   end
-
-
 end

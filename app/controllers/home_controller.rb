@@ -16,6 +16,6 @@ class HomeController < ApplicationController
         data: { message: 'Hello GCM World!' }
     )
     app.push_notifications
-    
+
   end
 end

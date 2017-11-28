@@ -45,4 +45,16 @@ class Api::V1::ApiController < Api::V1::BaseController
         render json: {status: "error",code: "400",message: "Cannot report sighting"}
       end
   end
+
+
+  def create_notification_token
+    user =  PublicUser.find(params[:public_user_id])
+    user.notification_token = params[:notification_token]
+    if user.save!
+       render json: {status: "success",message: "Token saved"}
+      else
+        render json: {status: "error",code: "400",message: "Cannot save token"}
+    end
+  end
+
 end
