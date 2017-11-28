@@ -14,14 +14,7 @@ Rails.application.config.assets.precompile += %w( styles.css )
 Rails.application.config.assets.precompile += %w( datatables.min.css )
 Rails.application.config.assets.precompile += %w( font-awesome.min.css )
 Rails.application.config.assets.precompile += %w( datepicker.css  )
-Rails.application.config.assets.precompile += %w( chart.min.js chart-data.js)
-Rails.application.config.assets.precompile += %w( jquery-1.11.1.min.js )
-Rails.application.config.assets.precompile += %w( respond.min.js )
-Rails.application.config.assets.precompile += %w( html5shiv.js )
-Rails.application.config.assets.precompile += %w( bootstrap.js  )
-Rails.application.config.assets.precompile += %w( datatables.min.js )
-Rails.application.config.assets.precompile += %w(  custom.js )
-Rails.application.config.assets.precompile += %w(  markerclusterer.js)
+
 
 
 

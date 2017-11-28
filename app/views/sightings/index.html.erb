@@ -62,7 +62,7 @@
               <td style=""><%= s.id %></td>
               <td style=""><%= s.public_user.name%></td>
               <td style=""><%= s.created_at %></td>
-              <td style=""><%= s.location %>i</td>
+              <td style=""><%= s.location %></td>
               <td><a href="/sightings/<%= s.id %> " ><button type="button" class="btn btn-sm btn-info">View</button></a></td>
             </tr>
         <% end %>
@@ -75,7 +75,6 @@
   </div>-
 </div>
 <%= render 'shared/footer' %>
-<%= javascript_include_tag 'datatables.min' %>
 
 <script>
     $(document).ready(function(){

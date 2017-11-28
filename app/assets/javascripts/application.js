@@ -13,4 +13,11 @@
 //= require jquery
 //= require jquery_ujs
 //= require turbolinks
+//= require bootstrap
+//= require chart.min
+//= require chart-data
+//= require respond.min
+//= require html5shiv.min
+//= require datatables.min
+//= require custom
 //= require_tree .

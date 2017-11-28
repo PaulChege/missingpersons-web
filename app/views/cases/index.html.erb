@@ -45,10 +45,7 @@
                   <div class="th-inner sortable">Date Reported</div>
                   <div class="fht-cell"></div>
                 </th>
-                <th style="">
-                  <div class="th-inner sortable">Town</div>
-                  <div class="fht-cell"></div>
-                </th>
+
                 <th style="">
                   <div class="th-inner sortable">Reporter</div>
                   <div class="fht-cell"></div>
@@ -66,7 +63,6 @@
                     <td style=""><%= c.id %></td>
                     <td style=""><%= c.name %></td>
                     <td style=""><%= c.created_at %></td>
-                    <td style=""><%= c.town %>i</td>
                     <td style=""><%= c.public_user.name %></td>
                     <td><a href="/cases/<%= c.id %> " ><button type="button" class="btn btn-sm btn-info">View</button></a></td>
                   </tr>
@@ -90,7 +86,6 @@
 
   });
 </script>
-<%= javascript_include_tag ('datatables.min') %>
 
 
 </body>
