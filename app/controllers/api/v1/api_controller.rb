@@ -11,7 +11,6 @@ class Api::V1::ApiController < Api::V1::BaseController
           description: params[:description],
           status: "Active",
           reporter_rel: params[:reporter_rel],
-          town: params[:town],
           image: params[:image],
           location_last_seen_lat: params[:latitude],
           location_last_seen_lon: params[:longitude]
