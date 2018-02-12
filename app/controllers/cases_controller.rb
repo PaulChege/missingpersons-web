@@ -23,7 +23,7 @@ class CasesController < ApplicationController
           destinations: [
               @c.public_user.notification_token
           ],
-          data: {  message: "Case #" + params[:id] + ": " +params[:status],}
+          notification: {  message: "Case #" + params[:id] + ": " +params[:status],}
           
       )
       app.push_notifications

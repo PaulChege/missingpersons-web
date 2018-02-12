@@ -14,7 +14,10 @@ class Api::V1::AuthenticationController < Api::V1::BaseController
   def signup
     if !PublicUser.find_by_email(params[:email])
       if user = PublicUser.create(name: params[:name],email: params[:email],password: params[:password],town: params[:town],status: "Active")
-        render json: {status: "success",message: "User account created", user: user, auth_token: AuthenticateUser.call(params[:email], params[:password]).result['token']}
+        render json: {status: "success",message: "User account created", 
+                      user: user,
+                      auth_token: AuthenticateUser.call(params[:email], 
+                      params[:password]).result['token']}
       else
         render json: {status: "error",code: "400",message: "Cannot create user"}
       end
